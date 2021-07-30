@@ -1,0 +1,119 @@
+/* pages/aidManCard/aidManCard.wxss */
+page {
+  height: 100%;
+  padding: 0;
+  background: -webkit-linear-gradient(top left, rgb(249,181,156), rgb(239,120,145), rgb(239,120,145));
+}
+
+.contain {
+  width: 90%;
+  margin: auto;
+}
+
+.card {
+  width: 100%;
+  background: -webkit-linear-gradient(top left, rgb(250,208,203), rgb(252,208,227), rgb(255,209,247));
+  margin: 50rpx auto;
+  border-radius: 25rpx;
+}
+
+.cardHead {
+  width: 100%;
+  height: 70rpx;
+}
+
+.redcross {
+  display: inline-block;
+  width: 70rpx;
+  margin-top: 10rpx ;
+  margin-left:  10rpx;
+}
+
+.redcross_img {
+
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.headText {
+  display: inline-block;
+  padding-left: 10rpx;
+}
+
+.headTextCh {
+  font-size: 30rpx;
+  font-style:inherit;
+  font-family: "SimSun";
+}
+
+.headTextEn {
+  font-weight: 200;
+  font-size: 18rpx;
+}
+
+.cardBody{
+  width: 100%;
+  padding-bottom: 10rpx;
+}
+
+.photo{
+  display: inline-block;
+  margin: auto 25rpx;
+}
+.photo image{
+ width:220rpx;
+ height:220rpx;
+}
+
+.info{
+  width:380rpx;
+  display: inline-block;
+margin-left: 27rpx;
+}
+
+.infocell {
+  display: flex;
+}
+.userName{
+  width:500rpx;
+}
+
+.infoitemname .infovalue{
+  display: inline-block;
+  width: 250rpx;
+
+}
+
+.infovalue{
+  margin-left: 20rpx;
+  font-weight: 500;
+  font-size: 25rpx
+}
+
+.info_ch{
+  font-size: 25rpx;
+  font-weight: 100;
+}
+.info_en{
+  font-size: 16rpx;
+}
+
+.text{
+  width: 90%;
+  background-color: rgb(254,246,245);
+  border-radius: 25rpx;
+  padding: 20rpx 35rpx;
+  font-weight: 200;
+}
+.textTitle{
+  font-size: 35rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+}
+.textbody{
+  font-size: 25rpx;
+}
+
+.textbodyitem{
+  margin: 25rpx auto;
+}

@@ -1,0 +1,34 @@
+<!--pages/_lecture/_lecture.wxml-->
+<view>搜索框预留</view>
+  <view class="first_tab">
+    <navigator class="video_item" url="/pages/__lecturedetail/__lecturedetail">
+      <view class="video_img_wrap">
+        <image mode="widthFix" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5gsvoa6PsZLBXccTKN2VLH4yjzRwNW*i6M0QPU9Ayz3ON0ylm8bwqFPNlxcMrsdKt.Ocf7*YQHKEV3xJ.3mJGQM!/mnull&bo=WAJbAQAAAAADByI!&rf=photolist&t=5"></image>
+      </view>
+      <view class="video_info_wrap">
+        <view class="video_coursecondition">
+          <button style="width:120rpx"
+                  class="button_coursenum"
+                  disabled="{{disabled}}">5学时
+          </button>
+          <button style="width:120rpx"
+                  class="button_notenroll"
+                  disabled="{{disabled}}">未报名
+          </button>
+        </view>
+        <view class="video_introduction">
+          名称：现场急救基本知识
+        </view>
+        <view class="video_introduction">
+          主讲人：XXX
+        </view>
+        <view class="video_introduction">
+          时间：2021/7/26 13:00~17:00
+        </view>
+        <view class="video_introduction">
+          地点：浙江大学图书馆
+        </view>
+      </view>
+    </navigator>
+    
+  </view>

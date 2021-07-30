@@ -1,0 +1,72 @@
+<!--compoments/tt/tt.wxml-->
+<image class="btn" bindtap="popup" data-position="right"
+  src="{{avatar}}">
+</image>
+<page-container show="{{show}}" overlay="true" duration="300" position="right" z-index="9999"
+  customStyle="width:40%;margin-left:60%" close-on-slide-down="true" bindenter="onEnter">
+  <navigator url="../../pages/basicInfo/basicInfo" class="img_box">
+    <image class="image__"
+      src="{{avatar}}">
+    </image>
+    <view class="text_">{{userName}}</view>
+  </navigator>
+  <view>
+    <view class="divLine"></view>
+  </view>
+  <view class="space"></view>
+
+  <view class="tt_cell">
+    <navigator url="../../pages/IDinfor/IDinfor">
+      <image class="image_"
+        src="/img/info.png">
+      </image>
+      <view class="text_">个人中心</view>
+    </navigator>
+  </view>
+
+  <view class="tt_cell">
+    <navigator url="#">
+      <image class="image_"
+        src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcX5RYmc5srJcmLflWS6Xlmj9rIIZd8WAsmXBXmQQdoiwlz.5zeYp80DCoYQT5mEZMp4Tdel4mOuF5gNWI1Ayf*4!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
+      </image>
+      <view class="text_">疫情防控</view>
+    </navigator>
+  </view>
+
+  <view class="tt_cell">
+    <navigator url="../../pages/aidManCard/aidManCard">
+      <image class="image_"
+        src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXHcQaFTpIs3*ASrLDSY6GgsjwRTPZ.WBrIOlqyBgQZ10AGpf1zUcWu3eGRO1ai*4FqeFQ*TlSWBWnlktdpAMPI!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
+      </image>
+      <view class="text_">急救证</view>
+    </navigator>
+
+  </view>
+
+  <!-- <view class="tt_cell">
+    <navigator url="../../pages/setting/setting">
+      <image class="image_"
+        src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXDsfunFtP4HSiufCc*f2RiWtILEKhFJNOGG28jeSyYv9fWN80LSOSsSNR6s1qtcxCUW2UVkFW*LxvxvXLO3gUw!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
+      </image>
+      <view class="text_">设置</view>
+    </navigator>
+  </view> -->
+
+  <view class="tt_cell">
+    <navigator url="../../pages/_statement/_statement">
+      <image class="image_"
+        src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcX5RYmc5srJcmLflWS6XlmhhJ9ewvti6uKdSL2ZiVPOXXVc*MoxNNSAfy8owyTfc6Z.BuiPiFkpjw9MkqoXd2NU!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4">
+      </image>
+      <view class="text_">关于小程序</view>
+    </navigator>
+  </view>
+
+  <view class="tt_cell">
+    <button open-type="share" class="button_">
+      <image class="image_"
+        src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcXDsfunFtP4HSiufCc*f2Rh2pdb35uzpZxjg8pbB6tRVUestD171e*qXEnif6FN84wSuzFTAR9I1CYFBXf5MhHA!/b&bo=0QDIAAAAAAADFys!&rf=viewer_4">
+      </image>
+    </button>
+    <view class="text_">分享</view>
+  </view>
+</page-container>

@@ -1,0 +1,91 @@
+/* pages/__panduan/__panduan.wxss */
+page{
+  width: 100%;
+}
+.background {
+  width: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600rpx;
+  height: 600rpx;
+  margin: 15%;
+}
+.up{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600rpx;
+  height: 100rpx;
+  border-bottom:2rpx solid rgb(156, 151, 148);
+}
+.down{
+  width: 600rpx;
+  height: 600rpx;
+}
+.cate{
+  font-size: 40rpx;
+}
+.num{
+  font-size: 45rpx; 
+}
+.text1{
+  margin-top: 10%;
+  font-size: 35rpx;
+  font-weight: 300;
+}
+.choosebox1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8%;
+  margin-top: 30%;
+  width: 500rpx;
+  height: 80rpx;
+  border-radius: 5%;
+  border: 4rpx dotted grey;
+}
+.choosebox2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 8%;
+  margin-top: 5%;
+  width: 500rpx;
+  height: 80rpx;
+  border-radius: 5%;
+  border: 4rpx dotted grey;
+}
+.text3{
+  margin-left: 10%;
+  font-size: 35rpx;
+  font-weight: 300;
+}
+.answerbutton{
+  width: 200rpx;
+  height: 120rpx;
+  margin-top: 5%;
+  border-radius: 60rpx;
+  background: #ffffff;
+  color:#ffffff;
+  padding-right:0rpx;
+}
+.text2{
+  font-weight: 500;
+  font-size: 35rpx;
+  letter-spacing: 1rpx;
+  color: rgb(65, 61, 61);
+}
+.buttoncontent{
+  display: flex;
+  flex-direction: row;
+}

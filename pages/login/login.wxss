@@ -1,0 +1,95 @@
+/* pages/login/login.wxss */
+page {
+  height: 100%;
+  padding: 0;
+  background: -webkit-linear-gradient(top left, rgb(248, 162, 131), rgb(242, 138, 126), rgb(235, 88, 118));
+}
+.loginbox{
+  width: 75%;
+}
+image.main_logo {
+  display: block;
+  margin: 0 auto 0 auto;
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.login_space {
+  height: 5%;
+}
+
+.login_form {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_form_cell {
+  display: block;
+  width: 100%;
+  margin: 3% auto;
+  padding: 35rpx 0rpx;
+  border: solid white 4rpx;
+}
+
+.register_complete {
+  text-align: center;
+  margin-top: 30rpx;
+}
+
+.but-login {
+  display: block;
+  margin: 35rpx 35rpx;
+  padding: 35rpx 35rpx;
+  width: 100% !important;
+  background-color: rgb(27, 72, 197);
+  border-radius:100rpx;
+}
+
+.but_text {
+  color: aliceblue;
+  font-weight: lighter;
+  font-size: 30rpx;
+}
+
+.button-sp-area {
+  display: block;
+  margin: 0 0;
+  width: 100%;
+}
+
+.divLineL {
+  float: left;
+  background: #E0E3DA;
+  width: 35%;
+  height: 5rpx;
+  margin-top: 15rpx;
+}
+
+.divLineR {
+  float: right;
+  background: #E0E3DA;
+  width: 35%;
+  height: 5rpx;
+  margin-top: 15rpx;
+}
+
+.divLineT {
+  float: left;
+  margin-left: 60rpx;
+}
+
+.loginToRegistP {
+  text-align: right;
+  font-size: 25rpx;
+}
+
+.loginToRegistA {
+  float: right;
+  color: aliceblue;
+  text-decoration: aqua;
+}

@@ -1,0 +1,24 @@
+<!--pages/__lecturedetail/__lecturedetail.wxml-->
+<view class="container">
+  <view class="img">
+    <image style="width:700rpx" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5gsvoa6PsZLBXccTKN2VLH4yjzRwNW*i6M0QPU9Ayz3ON0ylm8bwqFPNlxcMrsdKt.Ocf7*YQHKEV3xJ.3mJGQM!/mnull&bo=WAJbAQAAAAADByI!&rf=photolist&t=5" mode="aspectFit"></image>
+  </view>
+</view>
+
+<view style="margin-left:20rpx" class="conditionrow">
+  <button style="width:150rpx"
+          class="button_coursenum"
+          disabled="{{disabled}}">5学时
+  </button>
+  <button style="width:150rpx"
+          class="button_notenroll"
+          disabled="{{disabled}}">未报名
+  </button>
+</view>
+<view style="margin-top:30rpx;margin-left:40rpx;" class="details">名称：现场急救基本知识</view>
+<view style="margin-top:15rpx;margin-left:40rpx;" class="details">主讲人：XXX</view>
+<view style="margin-top:15rpx;margin-left:40rpx;" class="details">时间：2021/7/26 13:00~17:00</view>
+<view style="margin-top:15rpx;margin-left:40rpx;" class="details">地点：浙江大学图书馆</view>
+<view style="margin-top:15rpx;margin-left:40rpx;" class="details">讲座介绍：XXXXXXXXXXXXXXXXXXXXXXXXXXX</view>
+
+<button style="margin-top:80rpx" type="primary" bindtap="enrollatonce">立即报名</button>

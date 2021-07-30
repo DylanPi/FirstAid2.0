@@ -1,0 +1,67 @@
+<!--pages/SOS/SOS.wxml-->
+
+<view class="section00">
+  <view class="twomtwo">
+    <view class="section01">
+      <view class="pictext">
+          <view class="userinfo">
+            <image class ="pic" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5rugfilcZEZnTBrWs32*FQq2w1JcjAGXTL5Yeiv8985*O1AnF*quJ6AdGm53DS7SkpJims*TgiMdW1TQ3XvFFgc!/mnull&bo=jgCNAAAAAAADByE!&rf=photolist&t=5" bindtap="showPopup" mode="aspectFit"/>
+          </view>
+          <popup id="popup"
+            btn_ok_url="/pages/addsosnews/addsosnews"
+            title="《发起求救法律条文》"
+            content="本小程序旨在帮助大家在发生紧急急救情况下，提供附近的AED参考位置，帮助拨打120以及向周围的人发出急救信息。但本公司不承担因为使用本小程序的任何原因所导致的急救延误、失败、无效等直接或间接后果，包括并不限于延误急救时间，造成生命、财产损失等责任。"
+            btn_ok="我已阅读并同意"
+            bind:success="agreed" 
+            bind:cancel="canceled">
+          </popup>
+        <view class="text">呼救</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="twomtwo">
+    <view class="section01">
+      <view class="pictext">
+        <navigator url="/pages/_nearAED/_nearAED" open-type="navigate">
+          <image class ="pic" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5nyRtnVYomrKAHLcBzODE1vuNPgDo6vdT4sgxrIsZjSOpa58me0j7CQV4lnoFY0qa8XdmUnUmUM2Ct24u.DoWnQ!/mnull&bo=mQQ4BAAAAAADB4M!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text">附近的AED</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="section10">
+  <view class="twomtwo">
+    <view class="section11">
+      <view class="pictext">
+        <navigator url="/pages/_guidance/_guidance">
+          <image class ="pic" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5q3gD7**ZgeLQ1htiXSKG.Li0xfz*gGMT74fnlK2cW8l7Q1Zezz06uuX8PxLYpRgDFKp0yrD1dYJYEhRX.bt4QA!/mnull&bo=pwCnAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text">急救指南</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="twomtwo">
+    <view class="section11">
+      <view class="pictext">
+        <navigator url="/pages/_card/_card">
+          <image class ="pic" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5iD6qCWd*cM0ted0M5gwhJxSPbwzhHl*II3.ACk8Ly11tJorPZ4sQih8Tudr9JKpZlbDCXcJe3oyOFHr9UPrf3s!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text">医疗急救卡</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="section11">
+  <view class="pictext1">
+    <navigator url="../sosnews/sosnews">
+      <image class ="pic" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5gKe1.WtbeQ.5yrfvZks6tn3KC0UFLNy7p5c2EJD10ir08cTdmOg3WoIoTr8Sqw0nRjxtwB4L6SUTFTdDrAQ0Pc!/mnull&bo=sACwAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+    </navigator >
+    <view class="text">急救消息</view>
+  </view>
+</view>
+<tabsslocation></tabsslocation>

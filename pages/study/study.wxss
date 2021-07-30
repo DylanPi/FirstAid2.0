@@ -1,0 +1,93 @@
+/* pages/study/study.wxss */
+.section20{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15%;
+}
+.section21{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section30{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15%;
+}
+.section31{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section40{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15%;
+}
+.section41{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pictext1{
+  width: 140rpx;
+  height: 150rpx;
+}
+
+.text1{
+  text-align: center;
+  font-size: 25rpx;
+  letter-spacing: 2rpx;
+}
+
+.threemthree{
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.qiandao{ 
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.qanda{
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.video{
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.operation{
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.lecture{
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.volunteer{
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.certificate{
+  width: 140rpx;
+  height: 140rpx;
+}
+
+.forum{
+  width: 140rpx;
+  height: 140rpx;
+}

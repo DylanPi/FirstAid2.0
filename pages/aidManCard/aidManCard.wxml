@@ -1,0 +1,36 @@
+<!--pages/aidManCard/aidManCard.wxml-->
+<view class="contain">
+  <view class="card">
+    <view class="cardHead">
+      <view class="redcross">
+        <image class="redcross_img" src="../../img/redcross.png" mode="aspectFit"></image>
+      </view>
+      <view class="headText">
+        <view class="headTextCh">急救员证</view>
+        <view class="headTextEn">First Aider Certificate</view>
+      </view>
+
+    </view>
+    <view class="cardBody">
+      <view class="photo">
+        <image src="{{photo_src}}" mode="aspectFit"></image>
+      </view>
+      <view class="info">
+        <view class="infocell {{item.class}}" wx:for="{{cardList}}" wx:key="id">
+          <view class="infoitemname">
+            <view class="info_ch">{{item.name}}</view>
+            <view class="info_en">{{item.nameEn}}</view>
+          </view>
+          <view class="infovalue">{{item.value}}</view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+  <view class="text">
+    <view class="textTitle">急救员须知</view>
+    <view class="textbody">
+      <view wx:for="{{textList}}" class="textbodyitem">{{item.value}}</view>
+    </view>
+  </view>
+</view>

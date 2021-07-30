@@ -1,0 +1,58 @@
+/* pages/basicInfo/basicInfo.wxss */
+.contian {
+  padding: 0 30rpx;
+}
+
+.divLine {
+  background: #E0E3DA;
+  width: 100%;
+  height: 5rpx;
+  margin: 20rpx 0;
+}
+
+.info_cell {
+  font-size: 30rpx;
+}
+
+.item {
+  display: inline-block;
+}
+
+.item_imgcell {
+  width: 100rpx;
+  display: inline-block;
+  margin-left: 500rpx;
+}
+
+.item_img {
+  display: inline-block;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+
+}
+
+.item_value {
+  float: right;
+}
+
+.mark {
+  margin-top: 50rpx;
+}
+
+.mark_text {
+  float: right;
+  height: 100%;
+  font-size: 25rpx;
+  color: rgb(255, 0, 0);
+  text-decoration: underline;
+  padding-top: 50rpx;
+  padding-right: 280rpx;
+
+}
+
+.mark_img {
+  display: inline-block;
+  width: 30%;
+  height: 100rpx;
+}

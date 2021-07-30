@@ -1,0 +1,130 @@
+<!--pages/__volunteerdetail/__volunteerdetail.wxml-->
+<view class="container">
+  <view class="infocellpicture">
+    <view>
+      <image
+        src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqbQB69oSzODRSCzaqtVvNYSC6lmtUFDsOJtbStBalhQzsWf.Jp9wQ4Su7P7xXdZfWFeDXPD1lZW6CzMOxF7gZMA!/mnull&bo=OARMAgAAAAABB1I!&rf=photolist&t=5g"
+        class="huodong"></image>
+    </view>
+  </view>
+
+  <view class="infocellbaoming">
+    <view class="zuobian">
+      <view class="huodongmingcheng">
+        <text class="motto01">红十字救护员培训</text>
+      </view>
+      <view class="shijian">
+        <text class="motto02">2021.7.19 ~ 2021.7.26</text>
+      </view>
+    </view>
+    <view class="zhongjian">
+      <view class="shoucangtubiao">
+        <image
+          src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfZ1w0s3vFhAtCYiPNHWATDlbCDmT7vw3KA59DTiB2A9EABZ0AZLS3EeAMt2XEnrg*OLhrMPXqCcKDDZ8VUD3z0!/mnull&bo=sACwAAAAAAADByI!&rf=photolist&t=5"
+          class="shoucang"></image>
+      </view>
+      <view class="shoucangwenzi">
+        <text class="motto03">收藏</text>
+      </view>
+    </view>
+    <view class="button">
+      <button size="mini" type="primary" bindtap="enrollatonce">报名</button>
+
+    </view>
+
+  </view>
+
+  <view class="xinxi1">
+    <view class="xinxitubiao">
+      <image
+        src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqRiEecyH5V35QqjOrE8Vk0uGFDDmJmEBZLAeT8*ukJwOWABfke6gwxAkQCSoXXnU6K.DevJsCsCeuRb*CIKeeIw!/mnull&bo=wADAAAAAAAADByI!&rf=photolist&t=5"
+        class="tubiao"></image>
+    </view>
+    <view class="xinxiwenzi">
+      <text class="motto1">杭州暖心助学公益服务中心</text>
+    </view>
+  </view>
+  <view class="xinxi1">
+    <view class="xinxitubiao">
+      <image
+        src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqSEyVfaVhlOJpGnppHaWv7askJE0z8YsW*rI89XPH.C4wiGyMqKhGN*92tnWnVZk6fW0ja*SUFymd21ilQ.Cick!/mnull&bo=ogCiAAAAAAADByI!&rf=photolist&t=5"
+        class="tubiao"></image>
+    </view>
+    <view class="xinxiwenzi">
+      <text class="motto1">薛菲菲</text>
+    </view>
+  </view>
+  <view class="xinxi1">
+    <view class="xinxitubiao">
+      <image
+        src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqWqNK8x.kvMY5GiugMgAHM8FOjbiaBmaio9.*g785DTKtYXHKGf17Ad4vqU9yG0wjnMlIF*7oz42Tvkmy1Kcm0Q!/mnull&bo=sACwAAAAAAADByI!&rf=photolist&t=5"
+        class="tubiao"></image>
+    </view>
+    <view class="xinxiwenzi">
+      <text class="motto1">翠苑一区党群服务中心</text>
+    </view>
+  </view>
+  <view class="xinxi1">
+    <view class="xinxitubiao">
+      <image
+        src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqej5msR2Qv2i0QM9hufA2dFISNgs70mmdaQLXCqn4y4PttEdWWjz0Uw1TaejX37RIPOh6kEQ*a.D1cII9jaglQY!/mnull&bo=nwCfAAAAAAADByI!&rf=photolist&t=5"
+        class="tubiao"></image>
+    </view>
+    <view class="xinxiwenzi">
+      <text class="motto1">活动详情</text>
+    </view>
+  </view>
+
+  <view class="huodongxiangqing">
+    <view class="huodongxiangqing1">
+      <text
+        class="motto2">经过培训使学员了解红十字运动基本知识，树立红十字人道救护理念，掌握心肺复苏及创伤救护等初级救护知识和技能。在遇到突发事件或意外伤害时能自救互救，以减轻痛苦、减少伤残，为挽救生命争取宝贵时间。
+      </text>
+    </view>
+    <view class="huodongxiangqing2">
+      <text class="motto2">添加微信入群 13362185668</text>
+    </view>
+
+  </view>
+
+  <view class="xinxi2">
+    <view class="xinxitubiao">
+      <image
+        src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqYqO9gCg.VYcnHyVo7pTMKdzioM*e1S8GGXIYYZp*I7UDuXor0Ms4VifaFgb2MyBlwZy8zgvKLTZjVLVR5D1CXM!/mnull&bo=vAC8AAAAAAADByI!&rf=photolist&t=5"
+        class="tubiao"></image>
+    </view>
+    <view class="xinxiwenzi">
+      <text class="motto1">活动时间</text>
+    </view>
+    <view class="xinxiwenzi2">
+      <text class="motto3">2021.7.22 12:00 ~ 17:00</text>
+    </view>
+  </view>
+  <view class="xinxi2">
+    <view class="xinxitubiao">
+      <image
+        src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqe*.uf9rnixAuO56kvo8grJdF2XPJKEaMVA73oJAZI5QrkJ1zMuXqi3vRSt*ND9GS.Cs1IT8*wPDS9lmcMtpx98!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+        class="tubiao"></image>
+    </view>
+    <view class="xinxiwenzi">
+      <text class="motto1">活动积分</text>
+    </view>
+    <view class="xinxiwenzi2">
+      <text class="motto3">+20</text>
+    </view>
+  </view>
+  <view class="xinxi2">
+    <view class="xinxitubiao">
+      <image
+        src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqcJr*uAOSA4aCApsE4hoNgVXY9roy21.Trk60UQBF7OgPApJwxu4FQQLC3fIr*8qjLc667reqigDqDS*w4qaBkM!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+        class="tubiao"></image>
+    </view>
+    <view class="xinxiwenzi">
+      <text class="motto1">活动时数</text>
+    </view>
+    <view class="xinxiwenzi2">
+      <text class="motto3">+5</text>
+    </view>
+  </view>
+</view>
+

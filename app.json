@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/addsosnews/addsosnews",
+    "pages/sosnews/sosnews",
+    "pages/main/main",
+
+    "pages/IDinfor/IDinfor",
+    "pages/basicInfo/basicInfo",
+    "pages/SOS/SOS",  
+    "pages/__yijian120/__yijian120",
+   
+
+    "pages/logs/logs",
+   
+    "pages/_qanda/_qanda",
+
+    "pages/_nearAED/_nearAED",
+    "pages/_guidance/_guidance",
+    "pages/_guidanceTo/_guidanceTo",
+    "pages/_card/_card",
+
+    "pages/study/study",
+    "pages/_qiandao/_qiandao",
+    "pages/_video/_video",
+    "pages/_operation/_operation",
+    "pages/_lecture/_lecture",
+    "pages/_volunteer/_volunteer",
+    "pages/__volunteerdetail/__volunteerdetail",
+    "pages/_certificate/_certificate",
+    "pages/_forum/_forum",
+
+    "pages/__panduan/__panduan",
+    "pages/__xuanze/__xuanze",
+    "pages/__random/__random",
+    "pages/__quiz/__quiz",
+    "pages/aidManCard/aidManCard",
+    "pages/bindCard/bindCard"
+    
+  ],
+  "usingComponents": {},
+  "window": {
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#f2f2f2",
+    "navigationBarBackgroundColor": "#fbfbfb",
+    "navigationBarTitleText": "LeanTodo",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "routePlan": {
+      "version": "1.0.5",
+      "provider": "wx50b5593e81dd937a"
+    },
+    "chooseLocation": {
+      "version": "1.0.3",
+      "provider": "wx76a9a06e5b4e693e"
+    }
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

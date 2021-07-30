@@ -1,0 +1,9 @@
+<!--pages/_statement/_statement.wxml-->
+<view class="items">
+  <block wx:for="{{stateList}}" wx:key="id">
+    <view class="itemCell" bindtap="showDetails" data-itemName="{{item.name}}">
+      <view class="itemText">{{item.name}}</view>
+      <view class="arrow"></view>
+    </view>
+  </block>
+</view>

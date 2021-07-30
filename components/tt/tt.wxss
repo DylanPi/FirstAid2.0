@@ -1,0 +1,72 @@
+/* compoments/tt/tt.wxss */
+
+
+.btn {
+  position: absolute;
+  width: 68rpx;
+  height: 68rpx;
+  left: 650rpx;
+  top: 20rpx;
+  border-radius: 200rpx;
+}
+
+.detail-page {
+  width: 100%;
+  height: 100%;  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tuichu{
+  height: 10rps 
+
+}
+.image_{
+  margin: 0 115rpx;
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.image__{
+  margin: 0 70rpx;
+  width: 55%;
+  height: 160rpx;
+  border-radius: 200rpx;
+
+}
+.text_{
+  text-align: center;
+  font-size:smaller;
+}
+.button_{
+  
+  height: 100rpx;
+  padding: 0;
+  text-align: left;
+  background: none !important;
+  color: #000 !important;
+}
+.button_::after{
+border: none;
+}
+
+.tt_cell{
+ margin-bottom: 30rpx;
+}
+
+.divLine {
+  float: left;
+  background: #b9b9b9;
+  width: 100%;
+  height: 5rpx;
+  margin-top: 15rpx;
+}
+
+.space{
+  height: 3%;
+}
+
+.button_out{
+  float: right;
+  padding-left: 42%;
+}

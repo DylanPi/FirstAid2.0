@@ -1,0 +1,14 @@
+<!--pages/_nearAED/_nearAED.wxml-->
+<!--pages/demo03/demo03.wxml-->
+<view class="" hover-class="none" hover-stop-propagation="false" style="width: 100%; height: 100%;">
+  <map id="map" longitude="{{longitude}}" latitude=" {{latitude}}" markers="{{markers}}"
+    bindmarkertap="getAEDlocatation" scale="15" show-location style="width: 100%; height: 100%;"></map>
+  <view class="text_">请点击地图上的AED/求救信号图标获取终点位置</view>
+  <view class="text_">AED地址：{{endlocationname?endlocationname:"暂无"}}</view>
+
+</view>
+<view class="choose_">
+  <button bindtap="showMap">选择出发位置</button>
+  <view class="text__">出发位置地址：{{address?address:"暂无"}}</view>
+  <button class="btn" bindtap="_handleSubmit">开始导航</button>
+</view>

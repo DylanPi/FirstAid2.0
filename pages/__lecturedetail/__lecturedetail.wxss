@@ -1,0 +1,45 @@
+/* pages/__lecturedetail/__lecturedetail.wxss */
+.container{
+  display: flex;
+}
+.img{
+  display: flex;
+  justify-content: center;
+  height: 40%;
+  width: 90%;
+}
+.conditionrow{
+  width: 380rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.button_coursenum{
+  margin-top: 50rpx;
+  border-radius: 30rpx;
+  background: #08580c;
+  color: white;
+  padding: 0;
+  font-weight: 500;
+}
+.button_enroll{
+  margin-top: 50rpx;
+  border-radius: 30rpx;
+  background: #32da3b;
+  color: white;
+  padding: 0rpx 10rpx;
+  font-weight: 500;
+}
+.button_notenroll{
+  margin-top: 50rpx;
+  border-radius: 30rpx;
+  background: #d30606;
+  color: white;
+  padding: 0rpx 10rpx;
+  font-weight: 500;
+}
+.details{
+  font-size: 32rpx;
+  font-weight: 300;
+}

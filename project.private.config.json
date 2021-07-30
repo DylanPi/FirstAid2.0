@@ -1,0 +1,84 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/sosnews/sosnews",
+          "pathName": "pages/sosnews/sosnews",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/addsosnews/addsosnews",
+          "pathName": "pages/addsosnews/addsosnews",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/SOS/SOS",
+          "pathName": "pages/SOS/SOS",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/__xuanze/__xuanze",
+          "pathName": "pages/__xuanze/__xuanze",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/_video/_video",
+          "pathName": "pages/_video/_video",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/_lecture/_lecture",
+          "pathName": "pages/_lecture/_lecture",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/main/main",
+          "pathName": "pages/main/main",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/_hujiu/_hujiu",
+          "pathName": "pages/_hujiu/_hujiu",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/_volunteer/_volunteer",
+          "pathName": "pages/_volunteer/_volunteer",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/study/study",
+          "pathName": "pages/study/study",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

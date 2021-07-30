@@ -1,0 +1,55 @@
+/* pages/SOS/SOS.wxss */
+
+.section00 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 15%;
+}
+
+.section01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section10 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.section11 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pictext {
+    width: 200rpx;
+    height: 225rpx;
+}
+
+.text {
+    text-align: center;
+    font-size: 30rpx;
+    letter-spacing: 2rpx;
+}
+
+.twomtwo {
+    width: 200rpx;
+    height: 200rpx;
+}
+
+.pic {
+    width: 200rpx;
+    height: 200rpx;
+}
+
+.pictext1 {
+    width: 210rpx;
+    height: 235rpx;
+    margin-top: 13%;
+    margin-left: 16%;
+}

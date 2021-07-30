@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-body">
+    <view class="index">
+      <image class="main_logo" mode="aspectFit" src="../../img/FirstAidLogo.png"></image>
+    </view>
+  </view>
+</view>

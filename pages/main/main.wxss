@@ -1,0 +1,16 @@
+/* pages/main/main.wxss */
+.mainspace{
+  height: 200rpx;
+}
+.main_cell_image{
+  box-sizing: border-box;
+  width: 546rpx;
+  height:330rpx;
+}
+.maincell{
+  text-align: center;
+}
+.main_cell_nav{
+  margin: 0 auto;
+  width: 73%;
+}

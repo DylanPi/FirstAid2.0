@@ -1,0 +1,66 @@
+/* pages/_lecture/_lecture.wxss */
+.video_item{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 300rpx;
+  border-bottom: 2rpx solid grey;
+}
+.video_info_wrap{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.video_coursecondition{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.video_img_wrap{
+  margin-left: 10rpx;
+  margin-top: 50rpx;
+  display: flex;
+  width: 375rpx;
+  height: 350rpx;
+}
+.button_coursenum{
+  margin-top: 25rpx;
+  border-radius: 30rpx;
+  background: #08580c;
+  color: white;
+  padding: 0;
+  font-weight: 500;
+  font-size: 30rpx;
+  height: 75rpx;
+}
+.button_enroll{
+  margin-top: 25rpx;
+  border-radius: 30rpx;
+  background: #32da3b;
+  color: white;
+  padding: 0;
+  font-size: 30rpx;
+  height: 75rpx;
+  font-weight: 500;
+}
+.button_notenroll{
+  margin-top: 25rpx;
+  border-radius: 30rpx;
+  background: #d30606;
+  color: white;
+  font-size: 30rpx;
+  height: 75rpx;
+  padding: 0;
+  font-weight: 500;
+}
+.video_introduction{
+  margin-left: 15rpx;
+  margin-top: 10rpx;
+  line-height: 34rpx;
+  font-size: 26rpx;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}

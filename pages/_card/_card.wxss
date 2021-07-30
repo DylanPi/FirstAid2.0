@@ -1,0 +1,159 @@
+/* pages/_card/_card.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  padding-top: 3%;
+}
+
+.infocell {
+  width: 100%;
+}
+.infocell view{
+  display: flex;
+}
+.motto01{
+  font-size: 50rpx;
+  color: rgb(19, 9, 9);
+  font-weight:bold;
+
+}
+.motto02{
+  font-size: 35rpx;
+  color: rgb(100, 100, 100);
+}
+.touxiang{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius:70rpx;
+  overflow:hidden;
+ 
+}
+.infocellxinxi{
+  display: flex;
+  flex-direction: column;
+  margin-left: 40rpx;
+}
+.infocellgerenxinxi{
+  display: flex;
+  flex-direction: row;
+}
+.infocellname{
+  margin-bottom: 20rpx;
+  
+}
+
+image {
+  width: 50rpx;
+  height: 50rpx;
+}
+text{
+  color:red;
+ 
+}
+.motto1{
+  font-size: 42rpx;
+  margin-left: 10rpx;
+  margin-top: 1rpx;
+}
+.motto2{
+  font-size: 40rpx;
+ color:#353a3ac7 ;
+ 
+ width: 800rpx;
+ margin-left: 60rpx;
+}
+.motto3{
+  font-size: 30rpx;
+  margin-top: 17rpx;
+}
+
+.infocell{
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+}
+.infocell1{
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+}
+.infocell2{
+  padding-top: 10rpx;
+  padding-bottom: 15rpx;
+  border-bottom: 1rpx solid rgb(180, 180, 180);
+  margin-bottom: 10rpx;  
+}
+
+input{
+  border: 1px solid rgb(180, 180, 180);
+  width: 200rpx;
+  height: 10rpx;
+}
+
+.motto0{
+  font-size: 35rpx;
+}
+.motto1{
+  font-size: 42rpx;
+  margin-left: 10rpx;
+  margin-top: 1rpx;
+}
+.motto3{
+  font-size: 30rpx;
+  margin-top: 13rpx;
+}
+.motto2{
+  font-size: 32rpx;
+  color:#353a3ac7 ;
+  margin-left: 10rpx;
+  width: 350rpx;
+  margin-top: 1%;
+ }
+
+ .infocell2{
+  margin-top: 25rpx;
+  padding-bottom: 20rpx;
+  border-bottom: 1rpx solid rgb(180, 180, 180);
+  margin-bottom: 20rpx;  
+  margin-left: 7rpx;
+}
+.infocell3{
+   margin-top: 20rpx; 
+   display: flex;  
+   flex-direction: row;
+}
+.infocell4{
+  margin-bottom: 20rpx;  
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rpx;
+}
+.touxiang{
+  width: 150rpx;
+  height: 150rpx;
+  margin-left:-5rpx;
+  margin-right:20rpx;
+}
+
+.infocell6{
+  display: flex;
+  flex-direction: row;
+}
+.infocell5{
+      margin-left:10rpx ;
+}
+.shurukuang{
+  margin-left: 60rpx;
+  width: 350rpx;
+}
+.shurukuang2{
+  margin-left: 60rpx;
+  width: 350rpx;
+}
+.shurukuang1{
+  margin-left: 60rpx;
+  width: 150rpx;
+}
+._cardSpace{
+  height: 150rpx;
+}

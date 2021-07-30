@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "急救指南",
+  "navigationBarTextStyle":"black"
+}

@@ -1,0 +1,96 @@
+<!--pages/study/study.wxml-->
+<view class="section20">
+  <view class="threemthree">
+    <view class="section21">
+      <view class="pictext1">
+        <navigator url="/pages/_qiandao/_qiandao">
+          <image class ="qiandao" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5v7fjHPous4JHnWuqxU.X3PLDRZh*IYk.o9Zu29Zf6FuW4WTXhWi08yAsT24z8piqvmlgJd8ux9NfeqcLvdOkuM!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text1">每日签到</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="threemthree">
+    <view class="section21">
+      <view class="pictext1">
+        <navigator url="/pages/_qanda/_qanda">
+          <image class ="qanda" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5r3UGzctlmAf6nhujtz16dWUm1IVdIHvm*SiYKd.a5*6dhbPr3xR4nRJPdYUeH7e2FBeh5wMoxP.NN51d**P8j0!/mnull&bo=oACfAAAAAAADBx0!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text1">急救答题</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="threemthree">
+    <view class="section21">
+      <view class="pictext">
+        <navigator url="/pages/_video/_video">
+          <image class ="video" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5mD0jRMb037boY4dSHJuxNF1OrjDuGuJVuCiCjoE26T88B7cWPr0tDJqemflWwcLeDVjsn.X.IsxeNQYIxJESOA!/mnull&bo=ygDIAAAAAAADByA!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text1">急救视频</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="section30">
+  <view class="threemthree">
+    <view class="section31">
+      <view class="pictext1">
+        <navigator url="/pages/_guidance/_guidance">
+          <image class ="operation" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5q3gD7**ZgeLQ1htiXSKG.Li0xfz*gGMT74fnlK2cW8l7Q1Zezz06uuX8PxLYpRgDFKp0yrD1dYJYEhRX.bt4QA!/mnull&bo=pwCnAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text1">急救操作</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="threemthree">
+    <view class="section31">
+      <view class="pictext1">
+        <navigator url="/pages/_lecture/_lecture">
+          <image class ="lecture" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5v7fjHPous4JHnWuqxU.X3PaukfI3se7E9leUpi85cLxmbvzHEtHbCq1vrzQHiRM9yVD5czby80GO2KbatLyE2M!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text1">急救讲座</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="threemthree">
+    <view class="section31">
+      <view class="pictext">
+        <navigator url="/pages/_volunteer/_volunteer">
+          <image class ="volunteer" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5ujzbOaRjCex*0G5uKcUIueYN5TVmIWq5a35AxOv1VRkJQswyTfi0pNS9bhQDiDPSGmspdEnaUst2r7rm46WFWA!/mnull&bo=pAClAAAAAAADByM!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text1">志愿服务</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="section40">
+  <view class="threemthree">
+    <view class="section41">
+      <view class="pictext1">
+        <navigator url="/pages/_certificate/_certificate">
+          <image class ="certificate" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5v7fjHPous4JHnWuqxU.X3P0PXe1NCColCZN9ud6EztVQFZA4iHGDMGd08dcWxkj0Xi2DZRuqFUUdjzR0HEVRxE!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text1">急救证考试</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="threemthree">
+    <view class="section41">
+      <view class="pictext1">
+        <navigator url="/pages/_forum/_forum">
+          <image class ="forum" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5v7fjHPous4JHnWuqxU.X3PKR4nuCBgy.beq9feK*Dn9iB2u6oliVGofrXZDPoVRBNx09y7KWef*B2qSWYqtPcY!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        </navigator>
+        <view class="text1">急救论坛</view>
+      </view>
+    </view>
+  </view>
+</view>
+<tabsslocation></tabsslocation>
+<tt avatar="{{avatar}}"></tt>

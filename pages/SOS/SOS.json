@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+   "popup":"../../components/popup/popup",
+   "tabsslocation":"../../components/tabsslocation/tabsslocation"
+  },
+  "navigationBarTitleText": "急救"
+}

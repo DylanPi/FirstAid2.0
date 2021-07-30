@@ -1,0 +1,56 @@
+<!--pages/sosnews/sosnews.wxml-->
+<view class="sosnews_sos-list">
+<block wx:for="{{soses}}" wx:for-item="sos" wx:key="objectId" >
+   <view class="sosnews_uplist">
+   <image class="sosnews_image" src="{{sos.url}}"></image> 
+   <view class="sosnews_text1" >    
+     {{sos.content}}    
+    </view>  
+    <view wx:if="{{!sos.done}}" class="sosnews_tap1" bindtap="xiangqing"  data-sos="{{sos}}"  >查看详情</view>
+  </view> 
+  <view class="middlelist">
+  <view class="sosnews_text10">发起时间：{{sos.createdtime}}</view>
+  <button wx:if="{{!sos.done}}" bindtap="hujiuresponse" class="response" data-id="{{sos.objectId}}">响应呼救</button>
+  </view>
+  
+ <view  class="sosnews_downlist">
+  <view class="sosnews_text4">共{{sos.response}}人响应           
+    </view>
+    <view class="sosnews_text2">状态</view>
+    <button wx:if="{{sos.done}}"class="sosnews_button"><view class="sosnews_text3">已结束</view></button>
+              <button wx:else class="sosnews_button1"><view class="sosnews_text3">进行中</view></button>
+  </view>
+<view class="sosnews_divline"></view>
+</block>
+</view>
+
+<page-container show="{{show}}" overlay="false" duration="300" position="top" customStyle="height:100%" z-index="9999">
+<view bindtap="exit">返回</view>
+<view class="sosnews_xiangqing">
+<view class="sosnews_uplist">
+   <image class="sosnews_image1" src="{{sos_[0].iconPath}}"></image> 
+   <view class="sosnews_text6" >    
+     {{sos_[0].title}}     
+    </view>
+    <view class="sosnews_text7"> 状态 </view>
+      <button class="sosnews_button2">
+        <view class="sosnews_text8" >进行中
+        </view>
+      </button>
+    </view>
+    <view class="sosnews_text9">发起时间：{{sos_[0].lable}}</view>
+   <view class="sosnews_text9">共{{sos_[0].number}}人响应  </view>
+    <map longitude="{{sos_[0].longitude}}" latitude="{{sos_[0].latitude}}" class="sosnews_map" markers="{{sos_}}"></map> 
+   </view>
+
+  <view class="sosnews_choose_">
+  <button bindtap="showMap" class="sosnews_bth">选择出发位置</button>
+  <view class="sosnews_text__">出发位置地址：{{address?address:"暂无"}}</view>
+  <button class="sosnews_bth" bindtap="_handleSubmit">立即前往</button>
+</view>
+
+
+</page-container>
+
+
+  

@@ -1,0 +1,41 @@
+<!--pages/__xuanze/__xuanze.wxml-->
+<view class="container">
+	<image class='background' src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5mM1swWi3jTDMhMgrDiIy6PaNmMkFIli6RM7tNaa4UeWzGwwJNj7ZZcYN9uYmxFQeZoSCHI55Ciq6Uv.iiGOasg!/mnull&bo=OASHAQAAAAABB5o!&rf=photolist&t=5" mode="aspectFill"></image>
+</view>
+
+<view class="container">
+  <view class="box">
+    <view class="up">
+      <view class="cate">选择题</view>
+      <view class="num">1/5</view>
+    </view>
+    <view class="down">
+      <view class="text1">海姆立克急救法婴儿拍击次数？</view>
+      <view class="choosebox1">
+        <view class="text3">A.1~2次</view>
+      </view>
+      <view class="choosebox2" style="background:{{textbackgroundcolor}}">
+        <view class="text3">B.3~4次</view>
+      </view>
+      <view class="choosebox2">
+        <view class="text3">C.5~6次</view>
+      </view>
+      
+    </view> 
+  </view>
+</view>
+
+
+<button style="width:400rpx"
+        class="answerbutton"
+        disabled="{{disabled}}"
+        bindtap="changecolor">
+  <view class="buttoncontent">
+    <image  style="width:60rpx;height:60rpx" 
+                src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5gsvoa6PsZLBXccTKN2VLH6LVHE3n2mO8wuD7Oh6GN9TBe4t1K*7cKyraaoWCqkInjoMfSkNxInCXKE.Sk807E0!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"></image>
+    <view class="text2"
+          style="margin-left:5%">点我查看答案</view>
+  </view>    
+</button>
+
+<button>下一题</button>

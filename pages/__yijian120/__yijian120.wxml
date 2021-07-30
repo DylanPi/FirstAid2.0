@@ -1,0 +1,17 @@
+<!--pages/__yijian120/__yijian120.wxml-->
+<view class="text1">提示：</view>
+<view class="text2">已为您拨打120急救电话，请注意接听！</view>
+<view class="text3">注意事项：</view>
+<view class="text4">1、若您是需要急救的人，请保持冷静。</view>
+<view class="text4">2、若您是施救者，请安抚好伤员，增强其求生的信心，同时尽可能消除对自己和伤员的潜在危险。</view>
+<view class="text4">3、拨打120时，需镇静地说出病人所在地详细地址（下方）、伤病员地主要病情以及群体伤受伤地原因、大致人数、伤势情况。</view>
+<view class="text4">4、打好求助电话后，若有条件，派人到就近的道路等待救护车。</view>
+<view class="text4">5、在120电话医学指导下进行现场急救或自救。</view>
+<view class="text5">若您需要向附近的人呼救，请按下下方的“一键呼救”按钮寻求帮助。您还可以返回到小程序的急救页面找到“急救指南”和“附近的AED”辅助现场急救。</view>
+<button style="width:250rpx"
+        class="button1"
+        disabled="{{disabled}}"
+        bindtap="Tel"
+        data-tel="{{tel}}">
+        <view class="text3">一键{{tel}}</view>
+</button>

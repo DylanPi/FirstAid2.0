@@ -1,0 +1,42 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class="login_space"></view>
+  <view>
+    <image src="../../img/FirstAidLogo.png" mode="aspectFit" class="main_logo">
+    </image>
+  </view>
+  <view class="loginbox">
+    <view class="register_complete" ><rich-text nodes="{{com_reg}}"></rich-text></view>
+    <form action="">
+      <view class="login_form">
+        <view class="login_form_cell">
+          <input adjust-position="{{ true }}"  class="login_input" name="input" type="text" placeholder="账号"
+            placeholder-style=" text-align: center ;color: #ffffff" bindinput="inputNameLog" />
+        </view>
+        <!--value="{{password}}"  value="{{username}}"-->
+        <view class="login_form_cell">
+          <input type="text" adjust-position="{{ true }}"  class="login_input" password="true" name="input" placeholder="密码"
+            placeholder-style=" text-align: center;color: #ffffff" bindinput="inputPwLog" />
+        </view>
+        <view class="button-sp-area">
+          <button class="but-login login" hover-class="button-hover" bindtap="login">
+            <view class="but_text">登录 </view>
+          </button>
+        </view>
+        <view class="loginToRegistP">还没有账号?<navigator class="loginToRegistA" url="/pages/register/register">立即注册</navigator>
+        </view>
+        <view>
+          <view class="divLineL"></view>
+          <view class="divLineT">OR</view>
+          <view class="divLineR"></view>
+        </view>
+        <view class="button-sp-area">
+          <button class="but-login wxlogin" hover-class="button-hover" bindtap="getUserProfile">
+            <view class="but_text">使用微信账号登录 </view>
+          </button>
+        </view>
+      </view>
+    </form>
+  </view>
+  <view class="login_space"></view>
+</view>

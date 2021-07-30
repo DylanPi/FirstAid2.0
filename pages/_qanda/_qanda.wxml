@@ -1,0 +1,51 @@
+<!--pages/_qanda/_qanda.wxml
+  急救学习下的急救答题页面-->
+<view class="section00">
+  <view class="twomtwo">
+    <view class="section01">
+      <navigator url="/pages/__panduan/__panduan">
+        <view class="pictext">
+          <image class ="panduan" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5mD0jRMb037boY4dSHJuxNFnFU1TEjZnruJ61Hnm4Gm.6n1DgNVaHAKJPxcMbLARB9LMjZCc3qjfuNs1l6lV.cE!/mnull&bo=lwCWAAAAAAADByM!&rf=photolist&t=5" mode="aspectFit"/>
+          <view class="text">判断题</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+
+  <view class="twomtwo">
+    <view class="section01">
+      <navigator url="/pages/__xuanze/__xuanze">
+        <view class="pictext">
+          <image class ="xuanze" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5oikLbCTfaK9qCnAO12qUQJxuzRn0.smLTWOqESn6.9qqExO37bjLihshjrKSRH6Dkz*t9p24xgB7LdhmciLF8U!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        <view class="text">选择题</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<view class="section10">
+  <view class="twomtwo">
+    <view class="section11">
+      <view class="pictext">
+        <image class ="random" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5lb9nxdBTDTZWedL6BwfrgLIgg*SS2t7EBfhn.sV.aNU6YxJXhJaiR5Jh0m9zEAERtU8B9NSS08K7nL7i8sFVNM!/mnull&bo=rwCvAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+        <view class="text">随机练习</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="twomtwo">
+    <view class="section11">
+      <view class="pictext">
+        <navigator url="/pages/__quiz/__quiz">
+          <image class ="quiz" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5r3UGzctlmAf6nhujtz16dUcteDBbNRmkg5eiBjLjrVP7fan3d*FovENVm8o*xANLGcibfwoq1OpALVf99uwzf8!/mnull&bo=swCzAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
+          <view class="text">习题测试</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+
+  
+</view>
+
+<view class="text1">您可以通过做判断题、选择题或两者结合的随机练习题来学习和巩固心肺复苏这一部分的急救知识。当您完成学习和练习之后，您可以点击习题测试进行考试，通过之后即可获得10个急救积分。</view>

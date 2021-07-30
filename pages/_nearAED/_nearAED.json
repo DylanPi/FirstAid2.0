@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "AED导航",
+    "navigationBarTextStyle":"black"
+  
+}

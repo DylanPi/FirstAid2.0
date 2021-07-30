@@ -1,0 +1,18 @@
+<!--pages/main/main.wxml-->
+<view class="contain">
+<view class="mainspace"></view>
+  <view class="maincell">
+    <navigator class="main_cell_nav" url="/pages/SOS/SOS">
+      <image class="main_cell_image"
+        src="../../img/sos.png"/>
+    </navigator>
+  </view>
+  <view class="maincell">
+    <navigator class="main_cell_nav" url="/pages/study/study">
+      <image class="main_cell_image"
+        src="../../img/study.png" />
+    </navigator>
+  </view>
+</view>
+<tabsslocation></tabsslocation>
+<tt avatar="{{avatar}}" userName="{{username}}"></tt>

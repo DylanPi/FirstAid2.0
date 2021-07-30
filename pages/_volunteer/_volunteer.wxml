@@ -1,0 +1,20 @@
+<!--pages/_volunteer/_volunteer.wxml-->
+<view class="container">
+  <view class="infocell0">
+    <view class="infocell01">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfdAXGOr.dPlmsQqPci.EpZ0hOU7AyNxe1VbSSlfx1VuxSFv*2GgC6VOoo8wxyc0yeSz2EyrupIUu785o6JeaJw!/mnull&bo=OQAzAAAAAAADByg!&rf=photolist&t=5" mode="aspectFit" class="sousuo"></image>
+    </view>
+    <view class="infocell02">
+      <input type="text" class="shurukuang" />
+    </view>
+  </view>
+  <view class="infocell1">
+    <navigator url="/pages/__volunteerdetail/__volunteerdetail">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfg12VMv4CwtMeFh4LcxQlvBBmawZ4*MNsT6CR2MF*i*QsC74C3muf0Ui8yWjud.BRW5cVL3X*fr1XWSt7XBEDg!/mnull&bo=OATwAgAAAAABB.4!&rf=photolist&t=5" mode="aspectFit" class="huodong"></image>
+    </navigator>
+  </view>
+  <view class="infocell2">
+
+    <text class="juzhong">进行中</text>
+  </view>
+</view>

@@ -1,0 +1,327 @@
+<!--pages/_card/_card.wxml-->
+<block wx:if="{{notEidting}}">
+  <view class="container">
+    <view class="infocellgerenxinxi">
+      <view class="infocelltouxiang">
+        <view>
+          <image
+            src="{{avatar}}"
+            mode="aspectFit" class="touxiang"></image>
+        </view>
+      </view>
+
+      <view class="infocellxinxi">
+        <view class="infocellname">
+          <text class="motto01">{{username}}</text>
+        </view>
+        <view class="infocellage">
+          <text class="motto02">男·1997年10月1日（23岁）</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqYhtqUUojaK3GC4uMor2LxhkmET0wFzKqwjyGz52GluTrqzXX5pN25uUk0XK4FsJAoyineoKxrlYCZaCHxeZVXs!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">血型</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <text class="motto2">{{blood}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfpWagdheXuw1QTgLfvGAMitvdQwXesIpYD5j9AiAlIoVhedehU0F1K6ynRLmK71I6DJbAK3EFblB8u1gpG4YzY!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">过敏药物</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <text class="motto2">{{allergy}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqW12Bv8v2**KO0Hm2uhSxVfjw87AaI3nlrBRDkaVbdmVe.*7Gvpcc0AMgDoEN2WWl9xiJAEJUErKDQna*MsG2L0!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">慢性疾病</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <text class="motto2">{{chronic}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfamOE*LIb1VhrRyd7vKvN.4EXFnQ*9xCqV3kZ7mIL3QYUnMYNIM4IvSKvhkpaybjy4KS3CLQHw*SWnwHVkPnx4!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">近期用药</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <text class="motto2">{{Medication}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqVUv5uQwIU6IvOjhkKjWkbP29*0HFdIfg0BGS9x3zN0sutF5ONe*ycs38krkh9*CwJf*P9dJjkDPKQ0qFi1giLA!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">治疗情况</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <text class="motto2">{{Treatment}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqXRE*NOqF5guKD8vQXSJ3u5Cyacg4ZJ00TseDOvRJrzXtm80mqwxw5k70EWNTqUHmW97WRNKe2W6SJ35*HfbEOI!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">急救备注</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <text class="motto2">{{remarks}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqdHz2qIVHD3oTPIBNeYJdybvy17s6StvmIl3RkRD0sCRSg5wHj841MgE.helD1Vio5pOAYXe2h3*f5PXBclWhko!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">紧急联系人</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view wx:for="{{emergency_contact}}" wx:key="id">
+          <text class="motto2">{{item.EmconName}}-{{item.EmconTel}}</text>
+        </view>
+      </view>
+    </view>
+    <button bindtap="isEdit">点击编辑</button>
+  </view>
+</block>
+<block wx:else>
+  <view class="container">
+    <text class="motto0">请及时完善您的医疗急救卡！</text>
+
+    <view class="infocell6">
+      <view class="infocell4">
+        <view class="infocell5">
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqYKpbHnXKiYI2AHljDyMdpfB7N27lz3OyTDa.gWJGvc8Y9..c2b0QfnH0Heo4W2bUxcw*hhSMSmttL1t34NqQKA!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit" class="touxiang"></image>
+        </view>
+        <view class="infocell5">
+          <text class="motto2">编辑头像</text>
+        </view>
+      </view>
+
+      <view class="infocell4">
+        <view class="infocell3">
+          <view class="infocell5">
+            <input type="text" />
+          </view>
+          <view class="infocell5">
+            <text class="motto2">输入姓名</text>
+          </view>
+        </view>
+        <view class="infocell3">
+          <view class="infocell5">
+            <input type="text" class="shurukuang3" />
+          </view>
+          <view class="infocell5">
+            <text class="motto2">输入性别</text>
+          </view>
+        </view>
+        <view class="infocell3">
+          <view class="infocell5">
+            <input type="text" />
+          </view>
+          <view class="infocell5">
+            <text class="motto2">输入出生年月日</text>
+          </view>
+        </view>
+
+      </view>
+
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqYhtqUUojaK3GC4uMor2LxhkmET0wFzKqwjyGz52GluTrqzXX5pN25uUk0XK4FsJAoyineoKxrlYCZaCHxeZVXs!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">血型</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <input type="text" class="shurukuang" />
+          <text class="motto2">输入血型</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfpWagdheXuw1QTgLfvGAMitvdQwXesIpYD5j9AiAlIoVhedehU0F1K6ynRLmK71I6DJbAK3EFblB8u1gpG4YzY!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">过敏药物</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <input type="text" class="shurukuang" />
+          <text class="motto2">输入过敏药物</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqW12Bv8v2**KO0Hm2uhSxVfjw87AaI3nlrBRDkaVbdmVe.*7Gvpcc0AMgDoEN2WWl9xiJAEJUErKDQna*MsG2L0!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">慢性疾病</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <input type="text" class="shurukuang" />
+          <text class="motto2">输入慢性疾病</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfamOE*LIb1VhrRyd7vKvN.4EXFnQ*9xCqV3kZ7mIL3QYUnMYNIM4IvSKvhkpaybjy4KS3CLQHw*SWnwHVkPnx4!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">近期用药</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <input type="text" class="shurukuang" />
+          <text class="motto2">输入近期用药情况</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqVUv5uQwIU6IvOjhkKjWkbP29*0HFdIfg0BGS9x3zN0sutF5ONe*ycs38krkh9*CwJf*P9dJjkDPKQ0qFi1giLA!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">治疗情况</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <input type="text" class="shurukuang" />
+          <text class="motto2">输入最新治疗情况</text>
+        </view>
+      </view>
+    </view>
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqXRE*NOqF5guKD8vQXSJ3u5Cyacg4ZJ00TseDOvRJrzXtm80mqwxw5k70EWNTqUHmW97WRNKe2W6SJ35*HfbEOI!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">急救备注</text>
+        </view>
+      </view>
+      <view class="infocell2">
+        <view>
+          <input type="text" class="shurukuang" />
+          <text class="motto2">输入急救备注</text>
+        </view>
+      </view>
+    </view>
+    <view class="infocell">
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqdHz2qIVHD3oTPIBNeYJdybvy17s6StvmIl3RkRD0sCRSg5wHj841MgE.helD1Vio5pOAYXe2h3*f5PXBclWhko!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto1">紧急联系人</text>
+          <text class="motto3">（点击可快速呼叫）</text>
+        </view>
+      </view>
+      <view class="infocell4">
+        <view>
+          <input type="text" class="shurukuang2" />
+          <text class="motto2">输入紧急联系人姓名</text>
+        </view>
+      </view>
+      <view class="infocell4">
+        <view>
+          <input type="text" class="shurukuang2" />
+          <text class="motto2">输入紧急联系人电话</text>
+        </view>
+      </view>
+      <view class="infocell4">
+        <view>
+          <input type="text" class="shurukuang1" />
+          <text class="motto2">输入与紧急联系人的关系</text>
+        </view>
+      </view>
+      <view class="infocell1">
+        <view>
+          <image
+            src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqQDxiqcjUs1d5.8rrIwMT.lzfIEGyoCGs6mIroZZ93qrOk*rf8Qe1PXTp1QTV0tGs3vN5csVZvYA8oPrqvunkH0!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"
+            mode="aspectFit"></image>
+          <text class="motto2">添加新的紧急联系人</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="button">
+      <button bindtap="isEdit">确定</button>
+    </view>
+  </view>
+</block>
+<view class="_cardSpace">
+</view>

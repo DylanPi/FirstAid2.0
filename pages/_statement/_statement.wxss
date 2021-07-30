@@ -1,0 +1,23 @@
+/* pages/_statement/_statement.wxss */
+
+.itemCell{
+  border: 1px solid rgb(200,200,200);
+  display: flex;
+  height: 100rpx;
+}
+.arrow {
+  width: 30rpx;
+  height: 30rpx;
+  border-top: 2px solid #999;
+  border-right: 2px solid #999;
+  position: absolute;
+  right: 20rpx;
+  transform: rotate(45deg);
+  margin-top: 35rpx;
+}
+
+.itemText{
+  margin: auto 20rpx;
+  font-size: 50rpx;
+  font-weight: 200;
+}

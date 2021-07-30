@@ -1,0 +1,58 @@
+/* pages/__yijian120/__yijian120.wxss */
+
+.text1 {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 40rpx;
+    letter-spacing: 5rpx;
+    color: rgb(7, 6, 6);
+}
+
+.text2 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 35rpx;
+    letter-spacing: 1rpx;
+    color: rgb(236, 40, 40);
+}
+
+.text3 {
+    font-weight: 500;
+    margin-top: 8%;
+    margin-right: 12%;
+    font-size: 35rpx;
+    letter-spacing: 1rpx;
+    color: rgb(255, 255, 255);
+}
+
+.text4 {
+    margin-left: 8.5%;
+    margin-right: 8.5%;
+    font-size: 30rpx;
+    letter-spacing: 1rpx;
+    color: rgb(0, 0, 0);
+}
+
+.text5 {
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 28rpx;
+    letter-spacing: 1rpx;
+    color: rgb(73, 70, 70);
+}
+
+.text6 {
+    margin-top: 7%;
+    margin-right: 19%
+}
+
+.button1 {
+    width: 200rpx;
+    height: 120rpx;
+    margin-top: 4%;
+    border-radius: 60rpx;
+    background: #337ae4;
+    color: #ffffff;
+    padding-right: 0rpx;
+}

@@ -1,0 +1,15 @@
+.container_{
+  position: fixed;
+  top:80%;
+  text-align: center;
+  width:100%;  
+ 
+}
+.image_{
+  width:50rpx;
+  height:50rpx;
+ }
+
+.btn_getloc{
+  z-index: 1;
+}

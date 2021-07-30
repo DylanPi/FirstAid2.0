@@ -1,0 +1,92 @@
+<!--pages/_video/_video.wxml-->
+<view>搜索框预留</view>
+  <view class="first_tab">
+    <navigator class="video_item">
+      <view class="video_img_wrap">
+        <image mode="widthFix" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5gsvoa6PsZLBXccTKN2VLH4DPXZXsmbwx.BPXTUDZ7XNaAjB0LnlNNL2yfMfskSDlNQSy*3yfwuj.DSaFPhsyok!/mnull&bo=WAaKAwAAAAABB*c!&rf=photolist&t=5"></image>
+      </view>
+      <view class="video_info_wrap">
+        <view class="video_coursecondition">
+          <button style="width:120rpx"
+                  class="button_coursenum"
+                  disabled="{{disabled}}">3学时
+          </button>
+          <button style="width:120rpx"
+                  class="button_done"
+                  disabled="{{disabled}}">已学习
+          </button>
+        </view>
+        <view class="video_introduction">
+          名称：应急救护第一期-止血
+        </view>
+        <view class="video_introduction">
+          类型：止血包扎
+        </view>
+        <view class="video_introduction">
+          主讲人：XXX
+        </view>
+        <view class="video_introduction">
+          时长：00：05：03
+        </view>
+      </view>
+    </navigator>
+    <navigator class="video_item">
+      <view class="video_img_wrap">
+        <image mode="widthFix" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5gsvoa6PsZLBXccTKN2VLH68w7IYd4Lk8RsJ2P.oXQN.iPwpCetkXrz0nuEbnPYzoCRRXekSIRC8rqYFrcSvQEM!/mnull&bo=4gMqAgAAAAABB.k!&rf=photolist&t=5"></image>
+      </view>
+      <view class="video_info_wrap">
+        <view class="video_coursecondition">
+          <button style="width:120rpx"
+                  class="button_coursenum"
+                  disabled="{{disabled}}">3学时
+          </button>
+          <button style="width:120rpx"
+                  class="button_done"
+                  disabled="{{disabled}}">已学习
+          </button>
+        </view>
+        <view class="video_introduction">
+          名称：应急救护第二期-包扎
+        </view>
+        <view class="video_introduction">
+          类型：止血包扎
+        </view>
+        <view class="video_introduction">
+          主讲人：XXX
+        </view>
+        <view class="video_introduction">
+          时长：00：08：11
+        </view>
+      </view>
+    </navigator>
+    <navigator class="video_item">
+      <view class="video_img_wrap">
+        <image mode="widthFix" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5gsvoa6PsZLBXccTKN2VLH40hmVX41GM43PzIXagmsezqmmnVZd.OZ2M7jC*XrO1f*l754JV10agH30Uf9l7vf4!/mnull&bo=wgMZAgAAAAABB*o!&rf=photolist&t=5"></image>
+      </view>
+      <view class="video_info_wrap">
+        <view class="video_coursecondition">
+          <button style="width:120rpx"
+                  class="button_coursenum"
+                  disabled="{{disabled}}">2学时
+          </button>
+          <button style="width:120rpx"
+                  class="button_notdone"
+                  disabled="{{disabled}}">未学习
+          </button>
+        </view>
+        <view class="video_introduction">
+          名称：应急救护第三期-骨折
+        </view>
+        <view class="video_introduction">
+          类型：骨折固定
+        </view>
+        <view class="video_introduction">
+          主讲人：XXX
+        </view>
+        <view class="video_introduction">
+          时长：00：02：46
+        </view>
+      </view>
+    </navigator>
+    
+  </view>

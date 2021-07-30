@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "popup":"../../components/popup/popup"
+  },
+  
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "个人中心",
+  "navigationBarTextStyle":"black"
+}
+

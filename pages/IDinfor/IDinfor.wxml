@@ -1,0 +1,60 @@
+<!--pages/IDinfor/IDinfor.wxml-->
+<view class="containe">
+
+  <view class="headblock" bindtap="click_head">
+    <view class="info_head">
+      <image class="info_img" src="{{avatar}}" mode="aspectFit"></image>
+    </view>
+    <view class="info_text">
+      <view class="name">{{username}}</view>
+      <view class="ifreal" wx:if="{{ifRealName}}">已通过实名认证</view>
+      <view class="ifreal" wx:else>未通过实名认证</view>
+    </view>
+
+  </view>
+
+  <view class="divLine"></view>
+
+  <view class="list">
+    <block wx:for="{{info_list}}" wx:key="id">
+      <view class="list_cell">
+        <view class="num">{{item.num}}</view>
+        <view class="text">{{item.name}}</view>
+      </view>
+    </block>
+  </view>
+
+  <view class="divLine"></view>
+
+  <view class="FAcard">
+    <block wx:if="{{isAidMan}}">
+      <navigator url="../aidManCard/aidManCard">
+        <image class="FAcard_img" src="../../img/FAcardhead.png" mode="aspectFit">急救员证详情</image>
+      </navigator>
+    </block>
+    <block wx:else>
+      
+        <image bindtap="showPopup" class="FAcard_img" src="../../img/FAcardhead.png" mode="aspectFit">急救员证详情</image>
+        <popup id="popup"
+            btn_ok_url="/pages/bindCard/bindCard"
+            title="未绑定急救员证"
+            content="你可以通过以下方式报名培训成为救护员，如您是救护员则可以通过绑定按钮绑定救护员证"
+            btn_ok="绑定"
+            btn_nok="好的"
+            bind:success="bindCard" 
+            bind:cancel="canceled">
+          </popup>
+     
+    </block>
+  </view>
+
+  <view class="activity">
+    <view class="act_cell" wx:for="{{actcell}}" wx:key="id">
+      <navigator url="{{item.url}}">
+        <image class="act_img" src="{{item.imgsrc}}" mode="aspectFit">
+        </image>
+        <view>{{item.name}}</view>
+      </navigator>
+    </view>
+  </view>
+</view>

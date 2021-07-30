@@ -1,0 +1,34 @@
+<view class="contian">
+  <block wx:for="{{basicInfoList}}" wx:key="id">
+    <view class="info_cell">
+      <view class="item">{{item.name}}</view>
+      <view class="item_imgcell" wx:if="{{item.id=='0'}}">
+        <image class="item_img" src="{{item.value}}" mode="aspectFit"> </image>
+      </view>
+      <view wx:else class="item_value">{{item.value}}</view>
+      <view class="divLine"></view>
+    </view>
+  </block>
+  <view class="mark">
+    <view wx:if="{{isReal.status}}">
+      <image class="mark_img" src="{{isReal.imgT}}" mode="aspectFit"> </image>
+    </view>
+    <view wx:else>
+      <image class="mark_img" src="{{isReal.imgF}}" mode="aspectFit"> </image>
+      <navigator class="mark_text" url="#"> 点击进行实名认证</navigator>
+    </view>
+  </view>
+  <block wx:for="{{realInfoList}}" wx:key="id">
+    <view class="info_cell">
+      <view class="item">{{item.name}}</view>
+      <view class="item_value">{{item.value}}</view>
+      <view class="divLine"></view>
+    </view>
+  </block>
+
+
+
+
+
+
+</view>

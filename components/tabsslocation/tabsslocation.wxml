@@ -1,0 +1,10 @@
+<!--components/tabsslocation/tabsslocation.wxml-->
+
+<view class="container_" >
+  
+  <button class="btn_getloc" bindtap="showMap">获取位置</button>
+  <view style="margin-top:10px">
+    <image class="image_" src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcfEDvhQVk41rlVOFh508xJcss*UcloxkyxXmuxC6r0JTBQoh5kP3049BoRIXcmEFVl0dSPZ1iNcTIho8*PCZoOo!/b&bo=yADIAAAAAAADFzI!&rf=viewer_4"></image>
+  地址：{{address?address:"暂无"}}</view>
+  <view style="margin-left:30px">名称：{{locationName?locationName:"暂无"}}</view>
+</view>

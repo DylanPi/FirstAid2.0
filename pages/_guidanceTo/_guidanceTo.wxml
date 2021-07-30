@@ -1,0 +1,2 @@
+<!--pages/_guidanceTo/_guidanceTo.wxml-->
+<text>{{guideName}}</text>

@@ -1,0 +1,34 @@
+<!--pages/__quiz/__quiz.wxml-->
+<view class="container">
+	<image class='background' src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5mM1swWi3jTDMhMgrDiIy6PaNmMkFIli6RM7tNaa4UeWzGwwJNj7ZZcYN9uYmxFQeZoSCHI55Ciq6Uv.iiGOasg!/mnull&bo=OASHAQAAAAABB5o!&rf=photolist&t=5" mode="aspectFill"></image>
+</view>
+<view class="index-top">
+  <view class="{{index <= curring && curring != 0?'top-blue':'top-currin'}} {{index > 0 && curring < 2?'top-fint':'top-ping'}} {{2 == curring?'top-nux':''}} {{2 < curring?'top-name':''}}" wx:for="{{4}}" wx:key="index">
+    <view class="{{index <= curring?'top-buing':'top-bloc'}}">
+      <text>√</text>
+      <span>{{index+1}}</span>
+    </view>
+  </view>
+</view>
+<view class="centent" wx:for="{{detail}}" wx:key="index" wx:if="{{index == number}}">
+  <view class="centent-title">{{index+1}}. {{item.title}}</view>
+  <radio-group class="centent-group">
+    <radio class="group-radio" bindtap="radioChange" wx:for="{{item.array}}" wx:for-item="cell" data-index="{{index}}" data-id="{{item.id}}" wx:key="index" checked="{{cell.usname}}">
+      <span class="radio-span" wx:if="{{index == 0}}">A.</span>
+      <span class="radio-span" wx:if="{{index == 1}}">B.</span>
+      <span class="radio-span" wx:if="{{index == 2}}">C.</span>
+      <span class="radio-span" wx:if="{{index == 3}}">D.</span>
+      <text>{{cell.name}}</text>
+    </radio>
+  </radio-group>
+</view>
+<view class="bottom" wx:if="{{number != detail.length}}">
+<view bindtap="previous" wx:if="{{number != 0}}">上一题</view>
+<view bindtap="nextstep" style="{{number == 0?'margin:0 30%;':''}}">下一题</view>
+</view> 
+<view class="submission" wx:if="{{number == detail.length}}">
+  <view>
+  <image style="margin-top:20%" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5o6wr3yx*6rUWp.P5*lJPGnCiBw0IlbOVOUfUjLQ8Q3k8Y6l38GYjAtZgAvqEp*j6I84OeUwHh6hsJOnIig..js!/mnull&bo=ygPoAwAAAAADBwA!&rf=photolist&t=5"></image>
+  </view>
+  <view style="margin-top:20%" class="submission-center" bindtap="subsic">提交答案</view>
+</view>

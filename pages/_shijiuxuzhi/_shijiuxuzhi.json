@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "施救须知",
+  "navigationBarTextStyle":"black"
+}

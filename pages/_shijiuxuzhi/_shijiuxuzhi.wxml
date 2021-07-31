@@ -1,0 +1,66 @@
+<!--pages/_shijiuxuzhi/_shijiuxuzhi.wxml-->
+<view class="container">
+  <view class="infocell0">
+    <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqQJY4.qUSGOKOkCIOyOO6fCy56d.AsoCobRSVsfJkbKryo9a0qJrGKSwrg68dMwfVGTL1jgFygAXhHIM85ctfxk!/mnull&bo=IQY4BAAAAAADBzk!&rf=photolist&t=5" mode="aspectFit" class="fengmian"></image>
+  </view>
+  <view class="infocell1">
+    <view class="infocell11"> 
+      <text class="juzhong">3学时</text>
+    </view>
+    <view class="infocell12">
+      <text class="juzhong">未学习</text>
+    </view>
+    <view class="infocell13">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfZ1w0s3vFhAtCYiPNHWATDlbCDmT7vw3KA59DTiB2A9EABZ0AZLS3EeAMt2XEnrg*OLhrMPXqCcKDDZ8VUD3z0!/mnull&bo=sACwAAAAAAADByI!&rf=photolist&t=5" class="shoucang"></image>
+    </view>
+    <view class="infocell14"> 
+      <text class="shoucangwenzi">收藏</text>
+    </view>
+  </view>
+  <view class="infocell2">
+    <view class="infocell21">
+      <text>名称：如何正确拨打120</text>
+    </view>
+    <view class="infocell22">
+      <text>类型：施救须知</text>
+    </view>
+    <view class="infocell23">
+      <text>主讲人：吴医生</text>
+    </view>
+    <view class="infocell24">
+      <text>时长：00:03:34</text>
+    </view>
+    <view class="infocell25">
+      <text>已学习时长：00:00:00</text>
+    </view>
+    <view class="infocell26">
+      <text>视频介绍：如何正确拨打120</text>
+    </view>
+  </view>
+  <view class="infocell3">
+    <navigator url="../out1/out1">
+      <text class="juzhong1">开始学习视频</text>
+    </navigator>
+  </view>
+
+  <navigator url="/pages/_guidance/_guidance">
+  <view class="infocell4">
+    <view class="infocell41">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqUb9IFRrhd48eCDBnHCQbgOp*P9WSeItuNjWcWG9kwjCHi141cBp9qGdNvx6*SXfwX8dyReO.N6faJBglFkc1GA!/mnull&bo=lQCVAAAAAAADByI!&rf=photolist&t=5" class="tubiao1"></image>
+    </view>
+    <view class="infocell42">
+      <text class="tubiaowenzi">去温习操作</text>
+    </view>
+  </view>
+  </navigator>
+  
+  <view class="infocell5">
+    <view class="infocell51">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqarCLl*O*HNiYGas*gbHDnINkycy3uf*PhbS7XCvPshVQ75QLuO3AppXtnZxlbFpp0eC*Pa2gijh6QSBTSxzkcA!/mnull&bo=lwCXAAAAAAADByI!&rf=photolist&t=5" class="tubiao2"></image>
+    </view>
+    <view class="infocell52">
+      <text class="tubiaowenzi">去答题测试</text>
+    </view>
+  </view>
+</view>
+

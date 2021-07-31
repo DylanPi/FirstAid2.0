@@ -25,7 +25,7 @@
   <view class="threemthree">
     <view class="section21">
       <view class="pictext">
-        <navigator url="/pages/_video/_video">
+        <navigator url="/pages/_guidanceeasy/_guidanceeasy">
           <image class ="video" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5mD0jRMb037boY4dSHJuxNF1OrjDuGuJVuCiCjoE26T88B7cWPr0tDJqemflWwcLeDVjsn.X.IsxeNQYIxJESOA!/mnull&bo=ygDIAAAAAAADByA!&rf=photolist&t=5" mode="aspectFit"/>
         </navigator>
         <view class="text1">急救视频</view>

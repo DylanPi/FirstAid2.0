@@ -1,0 +1,144 @@
+/* pages/_shijiuxuzhi/_shijiuxuzhi.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 10%;
+}
+
+.infocell {
+  width: 100%;
+}
+
+.infocell view {
+  display: flex;
+}
+.infocell0{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ margin-top: -40rpx;
+}
+.infocell1 {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  margin-top: -20rpx;
+  padding-bottom: 30rpx;
+  
+  
+}
+.fengmian{
+  width: 700rpx;
+ 
+}
+
+
+.infocell11 {
+  height: 55rpx;
+  width: 120rpx;
+  border: 3rpx solid white;
+  border-radius: 100rpx;
+  background-color:  rgb(25, 109, 43);
+  margin-right: 20rpx;
+}
+
+.infocell12 {
+  height: 55rpx;
+  width: 120rpx;
+  border: 3rpx solid white;
+  border-radius: 100rpx;
+  background-color: rgb(170, 38, 5);
+}
+
+.juzhong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 50rpx;
+  color: white;
+  
+}
+.infocell13{
+  width: 70rpx;
+  height: 70rpx;
+  margin-left: 300rpx;
+  margin-top: -10rpx;
+}
+.infocell14{
+  margin-top: 10rpx;
+}
+text{
+  font-size: 35rpx;
+}
+.shoucangwenzi{
+  font-size: 37rpx  ;
+}
+.shoucang{
+  width: 70rpx;
+  height: 70rpx;
+  
+}
+.infocell2{
+  display: flex;
+  flex-direction: column;
+  margin-left: -270rpx;
+}
+
+
+.infocell3{
+  margin-top: 100rpx;
+  margin-bottom: 87rpx;
+  height: 100rpx;
+  width: 400rpx;
+  border: 3rpx solid white;
+  border-radius: 30rpx;
+  background-color: rgb(41, 202, 95);
+}
+.juzhong1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 100rpx;
+  color: white;
+  
+}
+.infocell4{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  padding-bottom: 40rpx;
+  border-bottom: 1px solid rgb(60, 60, 60);
+  margin-bottom: 40rpx;
+}
+.infocell42{
+  margin-top: 30rpx;
+  margin-left: 50rpx;
+  width: 600rpx;
+}
+.infocell52{
+  margin-top: 30rpx;
+  margin-left: 50rpx;
+}
+.infocell5{
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+}
+.tubiao1{
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 330rpx;
+}
+.tubiao2{
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 100rpx;
+}
+.tubiaowenzi{
+  font-size: 45rpx;
+
+}

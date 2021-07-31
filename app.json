@@ -36,8 +36,28 @@
     "pages/__random/__random",
     "pages/__quiz/__quiz",
     "pages/aidManCard/aidManCard",
-    "pages/bindCard/bindCard"
+    "pages/bindCard/bindCard",
+
+    "pages/_guidanceeasy/_guidanceeasy",
+
+    "pages/shijiuxuzhi/shijiuxuzhi",
+    "pages/_shijiuxuzhi/_shijiuxuzhi",
+    "pages/_shengmingjixiang/_shengmingjixiang",
+    "pages/_xinfeifusu/_xinfeifusu",
+    "pages/_zhixi/_zhixi",
+    "pages/_shiwuzhongdu/_shiwuzhongdu",
+    "pages/_xianchangzhixue/_xianchangzhixue",
+
+    "pages/out1/out1",
+    "pages/out2/out2",
+    "pages/out3_1/out3_1",
+    "pages/out3_2/out3_2",
+    "pages/out3_3/out3_3",
+    "pages/out4/out4",
+    "pages/out5/out5",
+    "pages/out6/out6"
     
+
   ],
   "usingComponents": {},
   "window": {

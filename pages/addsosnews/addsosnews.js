@@ -72,6 +72,11 @@ Page({
     }
   },*/
   endhujiu: async function () {
+    wx.showToast({
+      title: '您已结束呼救，请耐心等待救援！',
+      icon:"none",
+      duration: 5000
+    })
     const { soses } = this;
     const user_=AV.User.current()
    

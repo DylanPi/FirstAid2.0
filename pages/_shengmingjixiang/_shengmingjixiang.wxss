@@ -1,0 +1,105 @@
+/* pages/_shengmingjixiang/_shengmingjixiang.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding-top: 3%;
+}
+
+.infocell {
+  width: 100%;
+}
+
+.infocell view {
+  display: flex;
+}
+
+.infocell0 {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  border: 3rpx solid rgb(7, 7, 7);
+  border-radius: 100rpx;
+
+}
+
+.sousuo {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.infocell01 {
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+
+.shurukuang {
+  margin-top: 10rpx;
+}
+
+.infocell1 {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+
+  padding-top: 20rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 2rpx solid rgb(60, 60, 60);
+  margin-top: 40rpx;
+}
+
+image {
+  width: 350rpx;
+  height: 260rpx;
+}
+
+.infocell12 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20rpx;
+}
+
+.infocell121 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10rpx;
+}
+
+.infocell1211 {
+  height: 55rpx;
+  width: 120rpx;
+  border: 3rpx solid white;
+  border-radius: 100rpx;
+  background-color:  rgb(25, 109, 43);
+  margin-right: 20rpx;
+}
+
+.infocell1212 {
+  height: 55rpx;
+  width: 120rpx;
+  border: 3rpx solid white;
+  border-radius: 100rpx;
+  background-color: rgb(170, 38, 5);
+}
+
+.juzhong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 50rpx;
+  color: white;
+  
+}
+text{
+  font-size: 30rpx;
+}
+.shoucang{
+  width: 60rpx;
+  height: 60rpx;
+  
+}
+.infocell2{
+  margin-top: -80rpx;
+  margin-left: 600rpx;
+}

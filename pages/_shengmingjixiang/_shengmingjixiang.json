@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "生命迹象识别",
+  "navigationBarTextStyle":"black"
+}

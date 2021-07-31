@@ -22,25 +22,29 @@
         bindtap="jumppage_yijian120">
         <view class="text3">一键120</view>
   </button>
+  
 </view>
 </view>
 <page-container show="{{show}}" overlay="false" duration="300" position="top" customStyle="height:100%" z-index="9999" >
 
   <view class="text2">提示：</view>
   <view class="text4">正在向您周围的人呼救，请耐心等待救援！</view>
-  <view class="SOS_box">
+  <view class="SOS_box" bindtap="endhujiu">
   <image class="SOS_" src="http://m.qpic.cn/psc?/V54bWup343bG3t0Ty4ml3HojDo1xDLjP/45NBuzDIW489QBoVep5mcSyavUFHhw8SdqF1Ojis.I59DYI4LD*Fm.QEPa1s1GBp4DDvGEgDbIZ1cB5p1sQCjPtkbUkKUzVB2SCbBZbAmp0!/b&bo=LgEuAQAAAAADFzI!&rf=viewer_4" mode="aspectFill">
   
   </image>
 </view>
 
-  <view bindtap="endhujiu" class="sosground" data-id="610275d30d8ec52cd827905d">结束呼救</view>
-  <view class="text2">若您需要向附近的人呼救，请按下下方的“一键呼救”按钮寻求帮助。您还可以返回到小程序的急救页面找到“急救指南”和“附近的AED”辅助现场急救。</view>
-  <button style="width:250rpx"
-        class="button2"
-        disabled="{{disabled}}">
-        <view class="text3">一键120</view>
-  </button>
+  <view style="margin-top:100rpx" bindtap="endhujiu" class="sosground" data-id="610275d30d8ec52cd827905d">结束呼救</view>
+  <view class="text2">若您需要拨打120，请按下下方的“一键120”按钮寻求帮助。您还可以返回到小程序的急救页面找到“急救指南”和“附近的AED”辅助现场急救。</view>
+  <navigator url="/pages/__yijian120/__yijian120">
+    <button style="width:250rpx"
+          class="button2"
+          disabled="{{disabled}}">
+          <view class="text3">一键120</view>
+    </button>
+  </navigator>
+  
 
 
 

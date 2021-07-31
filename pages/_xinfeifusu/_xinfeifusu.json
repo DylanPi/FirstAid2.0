@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "心肺复苏",
+  "navigationBarTextStyle":"black"
+}

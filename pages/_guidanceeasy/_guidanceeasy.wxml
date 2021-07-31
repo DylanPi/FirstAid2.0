@@ -1,0 +1,102 @@
+<!--pages/_guidanceeasy/_guidanceeasy.wxml-->
+<view class="search">
+  <view class="weui-search-bar">
+    <view class="weui-search-bar__form">
+      <!-- 搜索框 -->
+      <view class="weui-search-bar__box">
+        <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+        <input type="text" class="weui-search-bar__input" placeholder="请输入搜索内容" />
+      </view>
+    </view>
+    <!-- 搜索按钮,调用搜索查询方法 -->
+    <view class="weui-search-bar__cancel-btn" bindtap='searchGuide'>搜索</view>
+  </view>
+</view>
+
+<view class="items">
+  <navigator url="../shijiuxuzhi/shijiuxuzhi">
+    <view class="itemCell">
+      <view class="icon">
+        <image src="../../img/4_Rescue_information.png" mode="aspectFit"></image>
+      </view>
+      <view class="itemText">施救须知</view>
+      <view class="arrow"></view>
+    </view>
+  </navigator>
+</view>
+
+<view class="items">
+  <navigator url="../_shengmingjixiang/_shengmingjixiang">
+  <view class="itemCell">
+    <view class="icon">
+      <image src="../../img/5_Identification_of_vital_signs.png" mode="aspectFit"></image>
+    </view>
+    <view class="itemText">生命迹象识别</view>
+    <view class="arrow"></view>
+  </view>
+  </navigator>
+  
+</view>
+
+<view class="items">
+  <navigator url="../_xinfeifusu/_xinfeifusu">
+  <view class="itemCell">
+    <view class="icon">
+      <image src="../../img/1_CPR.png" mode="aspectFit"></image>
+    </view>
+    <view class="itemText">心肺复苏</view>
+    <view class="arrow"></view>
+  </view>
+  </navigator>
+  
+</view>
+
+<view class="items">
+  <navigator url="/pages/_zhixi/_zhixi">
+  <view class="itemCell">
+    <view class="icon">
+      <image src="../../img/3_Asphyxia.png" mode="aspectFit"></image>
+    </view>
+    <view class="itemText">窒息</view>
+    <view class="arrow"></view>
+  </view>
+  </navigator>
+  
+</view>
+
+<view class="items">
+<navigator url="/pages/_shiwuzhongdu/_shiwuzhongdu">
+  <view class="itemCell">
+    <view class="icon">
+      <image src="../../img/20_bromatoxism.png" mode="aspectFit"></image>
+    </view>
+    <view class="itemText">食物中毒</view>
+    <view class="arrow"></view>
+  </view>
+</navigator>
+  
+</view>
+
+<view class="items">
+  <navigator url="/pages/_xianchangzhixue/_xianchangzhixue">
+  <view class="itemCell">
+    <view class="icon">
+      <image src="../../img/8_hemostasis.png" mode="aspectFit"></image>
+    </view>
+    <view class="itemText">现场止血</view>
+    <view class="arrow"></view>
+  </view>
+  </navigator>
+  
+</view>
+
+<view class="items">
+  <view class="itemCell">
+    <view class="icon">
+      <image src="../../img/6_artificial_respiration.png" mode="aspectFit"></image>
+    </view>
+    <view class="itemText">更多视频，尽请期待</view>
+    <view class="arrow"></view>
+  </view>
+  
+</view>

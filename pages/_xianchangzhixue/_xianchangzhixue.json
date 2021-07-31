@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "现场止血",
+  "navigationBarTextStyle":"black"
+}

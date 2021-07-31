@@ -1,0 +1,50 @@
+<!--pages/_shiwuzhongdu/_shiwuzhongdu.wxml-->
+<view class="container">
+
+<view class="infocell0">
+  <view class="infocell01">
+    <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfdAXGOr.dPlmsQqPci.EpZ0hOU7AyNxe1VbSSlfx1VuxSFv*2GgC6VOoo8wxyc0yeSz2EyrupIUu785o6JeaJw!/mnull&bo=OQAzAAAAAAADByg!&rf=photolist&t=5" mode="aspectFit" class="sousuo"></image>
+  </view>
+  <view class="infocell02">
+    <input type="text" class="shurukuang" />
+  </view>
+</view>
+
+<navigator url="../out5/out5">
+  <view class="infocell1">
+    <view class="infocell11">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqZUea0CuC3lH7qtf*UmQfLQYESjMwuXb8Lr.b2xCpkXH.rjshygx0g52B*0wv24C*KwykEaMpE8qrZtT9BZ8f*E!/mnull&bo=EwY4BAAAAAADBws!&rf=photolist&t=5"></image>
+    </view>
+    <view class="infocell12">
+      <view class="infocell121">
+        <view class="infocell1211">
+          <text class="juzhong">3学时</text>
+        </view>
+        <view class="infocell1212">
+          <text class="juzhong">未学习</text>
+        </view>
+
+      </view>
+      <view class="infocell122">
+        <view class="infocell1221">
+          <text class="wenzi">名称：食物中毒的急救处理</text>
+        </view>
+        <view class="infocell1222">
+          <text class="wenzi">类型：食物中毒</text>
+        </view>
+        <view class="infocell1223">
+          <text class="wenzi">主讲人：医行者志愿服务队</text>
+        </view>
+        <view class="infocell1224">
+          <text class="wenzi">时长：00:01:44</text>
+        </view>
+      </view>
+     
+    </view>
+  </view>
+</navigator>
+  
+  <view class="infocell2">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfZ1w0s3vFhAtCYiPNHWATDlbCDmT7vw3KA59DTiB2A9EABZ0AZLS3EeAMt2XEnrg*OLhrMPXqCcKDDZ8VUD3z0!/mnull&bo=sACwAAAAAAADByI!&rf=photolist&t=5" class="shoucang"></image>
+  </view>
+</view>

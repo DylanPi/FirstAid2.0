@@ -1,0 +1,125 @@
+<!--pages/_xinfeifusu/_xinfeifusu.wxml-->
+<view class="container">
+  <view class="infocell0">
+    <view class="infocell01">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfdAXGOr.dPlmsQqPci.EpZ0hOU7AyNxe1VbSSlfx1VuxSFv*2GgC6VOoo8wxyc0yeSz2EyrupIUu785o6JeaJw!/mnull&bo=OQAzAAAAAAADByg!&rf=photolist&t=5" mode="aspectFit" class="sousuo"></image>
+    </view>
+    <view class="infocell02">
+      <input type="text" class="shurukuang" />
+    </view>
+  </view>
+
+  <navigator url="../out3_1/out3_1">
+  <view class="infocell1">
+    <view class="infocell11">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqSXlXJhomAuzKBpmQ77D8LX4NBesaXUNzAVWWcbFYFPpqehdkd8*UcR3Bzq1q5YufVZ8P8eh22U1kes2w3NA33U!/mnull&bo=DgY4BAAAAAADBxY!&rf=photolist&t=5"></image>
+    </view>
+    <view class="infocell12">
+      <view class="infocell121">
+        <view class="infocell1211">
+          <text class="juzhong">3学时</text>
+        </view>
+        <view class="infocell1212">
+          <text class="juzhong">未学习</text>
+        </view>
+
+      </view>
+      <view class="infocell122">
+        <view class="infocell1221">
+          <text class="wenzi">名称：急救复苏体位</text>
+        </view>
+        <view class="infocell1222">
+          <text class="wenzi">类型：心肺复苏</text>
+        </view>
+        <view class="infocell1223">
+          <text class="wenzi">主讲人：医行者志愿服务队</text>
+        </view>
+        <view class="infocell1224">
+          <text class="wenzi">时长：00:01:30</text>
+        </view>
+      </view>
+     
+    </view>
+  </view>
+  </navigator>
+  
+  <view class="infocell2">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfZ1w0s3vFhAtCYiPNHWATDlbCDmT7vw3KA59DTiB2A9EABZ0AZLS3EeAMt2XEnrg*OLhrMPXqCcKDDZ8VUD3z0!/mnull&bo=sACwAAAAAAADByI!&rf=photolist&t=5" class="shoucang"></image>
+  </view>
+  
+  <navigator url="../out3_2/out3_2">
+  <view class="infocell1">
+    <view class="infocell11">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqZpVthQE4TCLD6QDxaA2RHIGkCIqHNRj6pGBg*szDFQ81a16c.pz3VuCHdZgOgPZEvqbgNmsApA*Ek4KK08NTLI!/mnull&bo=CwY4BAAAAAADBxM!&rf=photolist&t=5"></image>
+    </view>
+    <view class="infocell12">
+      <view class="infocell121">
+        <view class="infocell1211">
+          <text class="juzhong">3学时</text>
+        </view>
+        <view class="infocell1212">
+          <text class="juzhong">未学习</text>
+        </view>
+
+      </view>
+      <view class="infocell122">
+        <view class="infocell1221">
+          <text class="wenzi">名称：成人心肺复苏</text>
+        </view>
+        <view class="infocell1222">
+          <text class="wenzi">类型：心肺复苏</text>
+        </view>
+        <view class="infocell1223">
+          <text class="wenzi">主讲人：医行者志愿服务队</text>
+        </view>
+        <view class="infocell1224">
+          <text class="wenzi">时长：00:02:55</text>
+        </view>
+      </view>
+     
+    </view>
+  </view>
+  </navigator>
+  
+  <view class="infocell2">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfZ1w0s3vFhAtCYiPNHWATDlbCDmT7vw3KA59DTiB2A9EABZ0AZLS3EeAMt2XEnrg*OLhrMPXqCcKDDZ8VUD3z0!/mnull&bo=sACwAAAAAAADByI!&rf=photolist&t=5" class="shoucang"></image>
+  </view>
+
+  <navigator url="../out3_3/out3_3">
+  <view class="infocell1">
+    <view class="infocell11">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqSTfZYnnn0jWqdH.QACN0M5NJef8D5aY6wZ5O3grdg8faX5QfFz3NGOa2hJ6j6jAT0K72WlZ1Vpbot9Y8T1WIpE!/mnull&bo=HAY4BAAAAAADBwQ!&rf=photolist&t=5"></image>
+    </view>
+    <view class="infocell12">
+      <view class="infocell121">
+        <view class="infocell1211">
+          <text class="juzhong">3学时</text>
+        </view>
+        <view class="infocell1212">
+          <text class="juzhong">未学习</text>
+        </view>
+
+      </view>
+      <view class="infocell122">
+        <view class="infocell1221">
+          <text class="wenzi">名称：儿童心肺复苏</text>
+        </view>
+        <view class="infocell1222">
+          <text class="wenzi">类型：心肺复苏</text>
+        </view>
+        <view class="infocell1223">
+          <text class="wenzi">主讲人：医行者志愿服务队</text>
+        </view>
+        <view class="infocell1224">
+          <text class="wenzi">时长：00:02:26</text>
+        </view>
+      </view>
+     
+    </view>
+  </view>
+  </navigator>
+  
+  <view class="infocell2">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfZ1w0s3vFhAtCYiPNHWATDlbCDmT7vw3KA59DTiB2A9EABZ0AZLS3EeAMt2XEnrg*OLhrMPXqCcKDDZ8VUD3z0!/mnull&bo=sACwAAAAAAADByI!&rf=photolist&t=5" class="shoucang"></image>
+  </view>
+</view>

@@ -1,13 +1,21 @@
 <!--pages/_volunteer/_volunteer.wxml-->
-<view class="container">
-  <view class="infocell0">
-    <view class="infocell01">
-      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfdAXGOr.dPlmsQqPci.EpZ0hOU7AyNxe1VbSSlfx1VuxSFv*2GgC6VOoo8wxyc0yeSz2EyrupIUu785o6JeaJw!/mnull&bo=OQAzAAAAAAADByg!&rf=photolist&t=5" mode="aspectFit" class="sousuo"></image>
+<view class="search">
+  <view class="weui-search-bar">
+    <view class="weui-search-bar__form">
+      <!-- 搜索框 -->
+      <view class="weui-search-bar__box">
+        <icon class="weui-icon-search_in-box" type="search" size="14"></icon>
+        <input type="text" class="weui-search-bar__input" placeholder="请输入搜索内容" />
+      </view>
     </view>
-    <view class="infocell02">
-      <input type="text" class="shurukuang" />
-    </view>
+    <!-- 搜索按钮,调用搜索查询方法 -->
+    <view class="weui-search-bar__cancel-btn" bindtap='searchGuide'>搜索</view>
+
+
   </view>
+</view>
+
+<view class="container">
   <view class="infocell1">
     <navigator url="/pages/__volunteerdetail/__volunteerdetail">
       <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfg12VMv4CwtMeFh4LcxQlvBBmawZ4*MNsT6CR2MF*i*QsC74C3muf0Ui8yWjud.BRW5cVL3X*fr1XWSt7XBEDg!/mnull&bo=OATwAgAAAAABB.4!&rf=photolist&t=5" mode="aspectFit" class="huodong"></image>

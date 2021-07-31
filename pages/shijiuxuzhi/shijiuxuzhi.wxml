@@ -1,0 +1,48 @@
+<!--pages/shijiuxuzhi/shijiuxuzhi.wxml-->
+<view class="container">
+  <view class="infocell0">
+    <view class="infocell01">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfdAXGOr.dPlmsQqPci.EpZ0hOU7AyNxe1VbSSlfx1VuxSFv*2GgC6VOoo8wxyc0yeSz2EyrupIUu785o6JeaJw!/mnull&bo=OQAzAAAAAAADByg!&rf=photolist&t=5" mode="aspectFit" class="sousuo"></image>
+    </view>
+    <view class="infocell02">
+      <input type="text" class="shurukuang" />
+    </view>
+  </view>
+
+  <navigator url="../_shijiuxuzhi/_shijiuxuzhi">
+  <view class="infocell1">
+    <view class="infocell11">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqQJY4.qUSGOKOkCIOyOO6fCy56d.AsoCobRSVsfJkbKryo9a0qJrGKSwrg68dMwfVGTL1jgFygAXhHIM85ctfxk!/mnull&bo=IQY4BAAAAAADBzk!&rf=photolist&t=5"></image>
+    </view>
+    <view class="infocell12">
+      <view class="infocell121">
+        <view class="infocell1211">
+          <text class="juzhong">3学时</text>
+        </view>
+        <view class="infocell1212">
+          <text class="juzhong">未学习</text>
+        </view>
+
+      </view>
+      <view class="infocell122">
+        <view class="infocell1221">
+          <text class="wenzi">名称：如何正确拨打120</text>
+        </view>
+        <view class="infocell1222">
+          <text class="wenzi">类型： 施救须知</text>
+        </view>
+        <view class="infocell1223">
+          <text class="wenzi">主讲人： 吴医生</text>
+        </view>
+        <view class="infocell1224">
+          <text class="wenzi">时长： 00:03:34</text>
+        </view>
+      </view>  
+    </view>
+  </view>
+  <view class="infocell2">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqfZ1w0s3vFhAtCYiPNHWATDlbCDmT7vw3KA59DTiB2A9EABZ0AZLS3EeAMt2XEnrg*OLhrMPXqCcKDDZ8VUD3z0!/mnull&bo=sACwAAAAAAADByI!&rf=photolist&t=5" class="shoucang"></image>
+  </view>
+  </navigator>
+  
+</view>

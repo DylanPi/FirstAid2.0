@@ -8,27 +8,27 @@ Page({
     curring:-1,
     detail: [
       {
-        id: '1', title: '海姆立克急救法婴幼儿拍击次数？',answer:'2',array: [
-          { name: "1~2次", usname: false }, { name: '3~4次', usname: false },
-          { name: '5~6次', usname: false }, { name: '/', usname: false },
+        id: '1', title: '作为施救者，在急救现场需要_______。',answer:'3',array: [
+          { name: "仅保护自己的安全", usname: false }, { name: '仅保护伤员的安全', usname: false },
+          { name: '保护伤者及其他在场者（包括自己）的安全', usname: false }, { name: '/', usname: false },
         ]
       },
       {
-        id: '2', title: '溺水者被救起后，如果意识清醒必须立刻排水', answer: '1', array: [
+        id: '2', title: '打好求助电话后，派人到路口或小区的大门口等候救护车。', answer: '1', array: [
           { name: '正确', usname: false }, { name: '错误', usname: false },
           { name: '/', usname: false }, { name: '/', usname: false },
         ]
       },
       {
-        id: '3', title: '问题三', answer: '4', array: [
-          { name: '错误答案', usname: false }, { name: '错误答案', usname: false },
-          { name: '错误答案', usname: false }, { name: '正确答案', usname: false },
+        id: '3', title: '现场急救之后，必须陪伴伤病员直到专业救援队的到来。', answer: '1', array: [
+          { name: '正确', usname: false }, { name: '错误', usname: false },
+          { name: '/', usname: false }, { name: '/', usname: false },
         ]
       },
       {
-        id: '4', title: '问题四', answer: '3',  array: [
-          { name: '错误答案', usname: false }, { name: '错误答案', usname: false },
-          { name: '正确答案', usname: false }, { name: '错误答案', usname: false },
+        id: '4', title: '在对伤病员进行现场急救的时候，从_______的伤者开始。', answer: '2',  array: [
+          { name: '伤情最轻微', usname: false }, { name: '伤情最严重', usname: false },
+          { name: '距离自己最近', usname: false }, { name: '/', usname: false },
         ]
       },
     ],
@@ -103,14 +103,14 @@ Page({
     }
     if(answer > 3){
       wx.showToast({
-        title: '您答对了:' + answer + '题。' + "恭喜您，成功通过心肺复苏的习题测试！您可以继续去温习急救操作或是观看学习视频",
+        title: '您答对了:' + answer + '题。' + "恭喜您，成功通过急救须知的习题测试！您可以继续去温习急救操作或是观看学习视频",
         icon: 'none',
         duration: 4000
       })
     }
     if(answer < 4){
       wx.showToast({
-        title: '您答对了:' + answer + '题。' + "很遗憾，您没能通过心肺复苏的习题测试。您可以继续去温习急救操作或是观看学习视频",
+        title: '您答对了:' + answer + '题。' + "很遗憾，您没能通过急救须知的习题测试。您可以继续去温习急救操作或是观看学习视频",
         icon: 'none',
         duration: 4000
       })

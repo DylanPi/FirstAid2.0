@@ -31,14 +31,13 @@
     "pages/_certificate/_certificate",
     "pages/_forum/_forum",
 
-    "pages/__panduan/__panduan",
-    "pages/__xuanze/__xuanze",
     "pages/__random/__random",
     "pages/__quiz/__quiz",
     "pages/aidManCard/aidManCard",
     "pages/bindCard/bindCard",
 
     "pages/_guidanceeasy/_guidanceeasy",
+    "pages/_guidance_QA/_guidance_QA",
 
     "pages/shijiuxuzhi/shijiuxuzhi",
     "pages/_shijiuxuzhi/_shijiuxuzhi",
@@ -55,7 +54,22 @@
     "pages/out3_3/out3_3",
     "pages/out4/out4",
     "pages/out5/out5",
-    "pages/out6/out6"
+    "pages/out6/out6",
+
+    "pages/_details_cpr1/_details_cpr1",
+    "pages/_details_cpr2/_details_cpr2",
+    "pages/_details_cpr3/_details_cpr3",
+    "pages/_details_cpr4/_details_cpr4",
+    "pages/_details_cpr5/_details_cpr5",
+    "pages/_details_mustknow/_details_mustknow",
+
+    "pages/_panduan_mustknow1/_panduan_mustknow1",
+    "pages/_panduan_mustknow2/_panduan_mustknow2",
+    "pages/_panduan_mustknow3/_panduan_mustknow3",
+
+    "pages/_xuanze_mustknow1/_xuanzemustknow1",
+    "pages/_xuanze_mustknow2/_xuanzemustknow2",
+    "pages/_xuanze_mustknow3/_xuanzemustknow3"
     
 
   ],

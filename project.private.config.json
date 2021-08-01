@@ -77,6 +77,30 @@
           "pathName": "pages/study/study",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/_details_cpr2/_details_cpr2",
+          "pathName": "pages/_details_cpr2/_details_cpr2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/_details_cpr3/_details_cpr3",
+          "pathName": "pages/_details_cpr3/_details_cpr3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/_details_cpr4/_details_cpr4",
+          "pathName": "pages/_details_cpr4/_details_cpr4",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/_details_cpr5/_details_cpr5",
+          "pathName": "pages/_details_cpr5/_details_cpr5",
+          "query": "",
+          "scene": null
         }
       ]
     }

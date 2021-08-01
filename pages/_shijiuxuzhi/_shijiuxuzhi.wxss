@@ -122,6 +122,7 @@ text{
 .infocell52{
   margin-top: 30rpx;
   margin-left: 50rpx;
+  width: 600rpx;
 }
 .infocell5{
   display: flex;
@@ -136,9 +137,9 @@ text{
 .tubiao2{
   width: 120rpx;
   height: 120rpx;
-  margin-left: 100rpx;
+  margin-left: 330rpx;
 }
 .tubiaowenzi{
   font-size: 45rpx;
-
+  
 }

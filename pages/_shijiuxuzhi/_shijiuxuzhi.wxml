@@ -54,6 +54,7 @@
   </view>
   </navigator>
   
+  <navigator url="/pages/_qanda/_qanda">
   <view class="infocell5">
     <view class="infocell51">
       <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqarCLl*O*HNiYGas*gbHDnINkycy3uf*PhbS7XCvPshVQ75QLuO3AppXtnZxlbFpp0eC*Pa2gijh6QSBTSxzkcA!/mnull&bo=lwCXAAAAAAADByI!&rf=photolist&t=5" class="tubiao2"></image>
@@ -62,5 +63,6 @@
       <text class="tubiaowenzi">去答题测试</text>
     </view>
   </view>
+  </navigator>
 </view>
 

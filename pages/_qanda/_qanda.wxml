@@ -3,7 +3,7 @@
 <view class="section00">
   <view class="twomtwo">
     <view class="section01">
-      <navigator url="/pages/__panduan/__panduan">
+      <navigator url="/pages/_panduan_mustknow1/_panduan_mustknow1">
         <view class="pictext">
           <image class ="panduan" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5mD0jRMb037boY4dSHJuxNFnFU1TEjZnruJ61Hnm4Gm.6n1DgNVaHAKJPxcMbLARB9LMjZCc3qjfuNs1l6lV.cE!/mnull&bo=lwCWAAAAAAADByM!&rf=photolist&t=5" mode="aspectFit"/>
           <view class="text">判断题</view>
@@ -14,7 +14,7 @@
 
   <view class="twomtwo">
     <view class="section01">
-      <navigator url="/pages/__xuanze/__xuanze">
+      <navigator url="/pages/_xuanze_mustknow1/_xuanzemustknow1">
         <view class="pictext">
           <image class ="xuanze" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5oikLbCTfaK9qCnAO12qUQJxuzRn0.smLTWOqESn6.9qqExO37bjLihshjrKSRH6Dkz*t9p24xgB7LdhmciLF8U!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5" mode="aspectFit"/>
         <view class="text">选择题</view>
@@ -48,4 +48,4 @@
   
 </view>
 
-<view class="text1">您可以通过做判断题、选择题或两者结合的随机练习题来学习和巩固心肺复苏这一部分的急救知识。当您完成学习和练习之后，您可以点击习题测试进行考试，通过之后即可获得10个急救积分。</view>
+<view class="text1">您可以通过做判断题、选择题或两者结合的随机练习题来学习和巩固施救须知这一部分的急救知识。当您完成学习和练习之后，您可以点击习题测试进行考试，通过之后即可获得10个急救积分。</view>

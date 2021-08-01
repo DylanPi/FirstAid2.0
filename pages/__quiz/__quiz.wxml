@@ -31,4 +31,26 @@
   <image style="margin-top:20%" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5o6wr3yx*6rUWp.P5*lJPGnCiBw0IlbOVOUfUjLQ8Q3k8Y6l38GYjAtZgAvqEp*j6I84OeUwHh6hsJOnIig..js!/mnull&bo=ygPoAwAAAAADBwA!&rf=photolist&t=5"></image>
   </view>
   <view style="margin-top:20%" class="submission-center" bindtap="subsic">提交答案</view>
+
+  <navigator url="/pages/_details_mustknow/_details_mustknow">
+  <view class="infocell4">
+    <view class="infocell41">
+      <image src="http://m.qpic.cn/psc?/V5395bV905LCta2qMVpq08GtfZ14IvQm/bqQfVz5yrrGYSXMvKr.cqUb9IFRrhd48eCDBnHCQbgOp*P9WSeItuNjWcWG9kwjCHi141cBp9qGdNvx6*SXfwX8dyReO.N6faJBglFkc1GA!/mnull&bo=lQCVAAAAAAADByI!&rf=photolist&t=5" class="tubiao1"></image>
+    </view>
+    <view class="infocell42">
+      <text class="tubiaowenzi">去温习操作</text>
+    </view>
+  </view>
+  </navigator>
+  
+  <navigator url="/pages/shijiuxuzhi/shijiuxuzhi">
+  <view class="infocell5">
+    <view class="infocell51">
+      <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5mD0jRMb037boY4dSHJuxNF1OrjDuGuJVuCiCjoE26T88B7cWPr0tDJqemflWwcLeDVjsn.X.IsxeNQYIxJESOA!/mnull&bo=ygDIAAAAAAADByA!&rf=photolist&t=5" class="tubiao2"></image>
+    </view>
+    <view class="infocell52">
+      <text class="tubiaowenzi">去学习视频</text>
+    </view>
+  </view>
+  </navigator>
 </view>

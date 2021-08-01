@@ -1,4 +1,4 @@
-// pages/__panduan/__panduan.js
+// pages/_panduan_mustknow3/_panduan_mustknow3.js
 Page({
 
   /**
@@ -8,7 +8,7 @@ Page({
 
   },
   changecolor: function () {
-    var bg_color = this.data.textbackgroundcolor == 'red' ? '#FFF8DC' : '#FFF8DC';
+    var bg_color = this.data.textbackgroundcolor == 'red' ? '#90EE90' : '#90EE90';
     
     // 设置字体颜色数据
     

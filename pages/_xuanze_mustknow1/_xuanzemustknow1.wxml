@@ -1,4 +1,4 @@
-<!--pages/__xuanze/__xuanze.wxml-->
+<!--pages/_xuanze_mustknow1/_xuanzemustknow1.wxml-->
 <view class="container">
 	<image class='background' src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5mM1swWi3jTDMhMgrDiIy6PaNmMkFIli6RM7tNaa4UeWzGwwJNj7ZZcYN9uYmxFQeZoSCHI55Ciq6Uv.iiGOasg!/mnull&bo=OASHAQAAAAABB5o!&rf=photolist&t=5" mode="aspectFill"></image>
 </view>
@@ -7,18 +7,18 @@
   <view class="box">
     <view class="up">
       <view class="cate">选择题</view>
-      <view class="num">1/5</view>
+      <view class="num">1/3</view>
     </view>
     <view class="down">
-      <view class="text1">海姆立克急救法婴儿拍击次数？</view>
+      <view class="text1">作为施救者，在急救现场需要_______。</view>
       <view class="choosebox1">
-        <view class="text3">A.1~2次</view>
-      </view>
-      <view class="choosebox2" style="background:{{textbackgroundcolor}}">
-        <view class="text3">B.3~4次</view>
+        <view class="text3">A.仅保护自己的安全</view>
       </view>
       <view class="choosebox2">
-        <view class="text3">C.5~6次</view>
+        <view class="text3">B.仅保护伤员的安全</view>
+      </view>
+      <view class="choosebox2" style="background:{{textbackgroundcolor}}">
+        <view class="text3">C.保护伤者及其他在场者（包括自己）的安全</view>
       </view>
       
     </view> 
@@ -38,4 +38,6 @@
   </view>    
 </button>
 
-<button>下一题</button>
+<navigator url="/pages/_xuanze_mustknow2/_xuanzemustknow2">
+  <button>下一题</button>
+</navigator>

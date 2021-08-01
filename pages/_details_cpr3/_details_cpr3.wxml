@@ -1,0 +1,34 @@
+<!--pages/_details_cpr3/_details_cpr3.wxml-->
+<view class="text1">第2步 人工呼吸</view>
+<view class="text2">
+  <view>
+    1. 一只手置于其前额，另一只手的两根手指抬高其下颌使其后脑倾斜，以使气道畅通。观察其胸部是否有呼吸的表现并用你的面颊感觉他的呼吸。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5tursOAcsV5Pf01XhV2bl6nEb3GmU.ONII*gEEW3pV4tBN*CKk7dDGrheLCh8vMOicRldlTD0J2EgG5cFiH*HJw!/mnull&bo=CQO3AgAAAAADB50!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5qqDYFV*jkXrB63JuzeGstITCsWzXabLvH.cc..auYekeNj*RfWbAUCZn7HV3Bm08ULKndWADUGlWx.L11WmQzw!/mnull&bo=GANZAQAAAAADB2E!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5qqDYFV*jkXrB63JuzeGstIYImLuVqx*AUhL56mSMANOtS4kMIqB5tP585P76PjaQqFj7b2jXvyH2FDmwnMrEKg!/mnull&bo=VQPVAgAAAAADB6M!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+
+<view class="text2">
+  <view>
+    2. 如果患者没有呼吸，一只手将其一鼻孔捏闭，另一只手保持其下颌抬高。用你的嘴封住患者的嘴，给予2次人工呼吸。2次人工呼吸之间暂停一下，以使你自己能够进行一次正常呼吸。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5qqDYFV*jkXrB63JuzeGstIZTXNkrvRZlvS.SB.6mZ1l543sd1KsPcghN2*z1Z*mINTOR7ZeE26nI4i83vyQR4M!/mnull&bo=CQO3AgAAAAADB50!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5qqDYFV*jkXrB63JuzeGstJnVUwDDe9IXtlphee2fPVklz.Oqu4FPQuWUsnn2CbGiBbgXlw*pVv0UD8DNsuGI1c!/mnull&bo=IwOOAgAAAAADB44!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5jOIMLDPc8EkFAr1XnNWK7qJ2QEqc4A2ppzpdenYSa4sdKLpvwwtrdjFOMwfD3xL3cFN6KyFAAZuj3IR07X0Kik!/mnull&bo=HQNKAQAAAAADB3c!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5jOIMLDPc8EkFAr1XnNWK7pXQzb5Mo9ogTIrIUxs516MCxqir01eGLbTGddguFXS*HJKYe1Gcf.HjviwM4UQuvU!/mnull&bo=IwNbAQAAAAADB1g!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+
+<view class="text2">
+  <view>
+    3. 检查颈部脉搏10秒钟并查看是否有复苏迹象。如果有脉搏，继续进行人工呼吸。如果测不到脉搏并且没有复苏的任何表现，开始进行心脏复苏（CPR）。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5jOIMLDPc8EkFAr1XnNWK7pfLGGSJN3.TfkQO*w6vB47f62qLZolVBa60xOISOOgJEbGHpilLObywED9SLLLj3c!/mnull&bo=HAMPAgAAAAADBzA!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+
+<navigator url="/pages/_details_cpr2/_details_cpr2">
+  <button style="margin-top:50rpx">上一步</button>
+</navigator>
+<navigator url="/pages/_details_cpr4/_details_cpr4">
+  <button type="primary" style="margin-bottom:50rpx">下一步</button>
+</navigator>

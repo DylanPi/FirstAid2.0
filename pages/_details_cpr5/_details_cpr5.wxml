@@ -1,0 +1,19 @@
+<!--pages/_details_cpr5/_details_cpr5.wxml-->
+<view class="text1">第4步 自动心脏除颤装置的使用</view>
+<view class="text2">
+  <view>
+    1. 有条件时使用自动心脏除颤装置（AED）开展心肺复苏。您可通过本小程序获取浙江大学紫金港校区内的AED分布，并导航。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5lDtTCezubyHT5HyAn8z9xl5VZXjPSVoOpELIvsIqFhAZy.3eBc86XyG0HKNFCHGs9WtkwOu5NpghRFIVAZ.pJM!/mnull&bo=*ALRAgAAAAADBw8!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+  <view>●当 AED到达后，立即使用AED，开机然后按照AED的语音提示进行操作；</view>
+  <view>●当AED分析心率和除颤时一定要确保不要接触病人；</view>
+  <view>●除颤或不除颤后立即从胸外按压开始心肺复苏，直到2分钟后AED再次分析心率或急救人员到达。</view>
+</view>
+
+
+<navigator url="/pages/_details_cpr4/_details_cpr4">
+  <button style="margin-top:50rpx">上一步</button>
+</navigator>
+<navigator url="/pages/_guidance/_guidance">
+  <button type="primary" style="margin-bottom:50rpx">返回导航</button>
+</navigator>

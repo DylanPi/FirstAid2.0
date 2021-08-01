@@ -1,0 +1,53 @@
+<!--pages/_details_cpr2/_details_cpr2.wxml-->
+<view class="text1">第1步 复苏体位</view>
+<view class="text2">
+  <view>
+    1. 呼叫救护车。让患者面朝上平躺在稳固的平面上。首先检查呼吸道是否畅通，及时清除气道异物。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5rxAtDy2e.luT441V3ImrZvT6Dhy0sgxsLYc4ugXnvOYA6aGMbloFhO24lrsa8sIwa1nS5BGJ29Ig0mlmm.IN7E!/mnull&bo=GQPZAQAAAAADB.A!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+<view class="text2">
+  <view>
+    2. 施救人员跪在伤病员身体一侧，将伤病员靠近自己的那只手臂向上方弯曲。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5rxAtDy2e.luT441V3ImrZudzj81N1r5xGs7kq6O94fWxc.*xvYoMpFczJNgA0Bwkf5yVJw5ftmxnd.9MpW09XE!/mnull&bo=IwNIAgAAAAADB0g!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+<view class="text2">
+  <view>
+    3. 将其另一只手臂绕过胸部，并把手掌放在他对面的脸颊上。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5rxAtDy2e.luT441V3ImrZuJ598aPBF7SDkglEL50z8tMQffK3Quav3mDfubpKdZs8toEQuD0XKblHzdM3FtPl4!/mnull&bo=IwPuAQAAAAADB.0!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+<view class="text2">
+  <view>
+    4. 将远侧那条腿屈起。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5rxAtDy2e.luT441V3ImrZuB8hy8d.6STbsi90TporXjwnh.0fke4353GPXMaPV1OXqtUnjk1rx*9Jt0NNmlZmw!/mnull&bo=IAONAQAAAAADB40!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+<view class="text2">
+  <view>
+    5. 轻轻向自己一侧扳动屈起的那条腿膝部使伤病员的身体转向自己。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5tursOAcsV5Pf01XhV2bl6lT39rOavECe.cGN5YnPw5d88zNlJ.s8hcclTQ2wli.KY6tB9Glg*s2F9K5WuKRf3U!/mnull&bo=HAP6AQAAAAADB8Y!&rf=photolist&t=5" style="width:100%;margin-top:10rpx"  mode="widthFix"></image>
+</view>
+<view class="text2">
+  <view>
+    6. 伤病员面向自己侧身趴下后，把他弯曲的那条腿保持在他身体右侧。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5tursOAcsV5Pf01XhV2bl6l3drvSuALksA.acvEI6ujq2tzyYIqqz0EnoL9vkbqOjp.oS7HKVTYG*LdbpZzdpaQ!/mnull&bo=IgPGAQAAAAADB8Q!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+<view class="text2">
+  <view>
+    7. 检查呼吸状况，确保其气道通畅。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5tursOAcsV5Pf01XhV2bl6meWWncczFcSunbY7lJZAkap4gnirknDtk9eyeAnPRue4s4ClWod30PC0LEYzq0T0o!/mnull&bo=KAPSAQAAAAADB9o!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+
+
+
+<navigator url="/pages/_details_cpr1/_details_cpr1">
+  <button style="margin-top:50rpx">上一步</button>
+</navigator>
+<navigator url="/pages/_details_cpr3/_details_cpr3">
+  <button type="primary" style="margin-bottom:50rpx">下一步</button>
+</navigator>

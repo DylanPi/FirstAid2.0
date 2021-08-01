@@ -1,4 +1,4 @@
-// pages/__xuanze/__xuanze.js
+// pages/_details_cpr4/_details_cpr4.js
 Page({
 
   /**
@@ -7,15 +7,7 @@ Page({
   data: {
 
   },
-  changecolor: function () {
-    var bg_color = this.data.textbackgroundcolor == 'red' ? '#FFF8DC' : '#FFF8DC';
-    
-    // 设置字体颜色数据
-    
-    this.setData({
-    textbackgroundcolor: bg_color
-    });
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

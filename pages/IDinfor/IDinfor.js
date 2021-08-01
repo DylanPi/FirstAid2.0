@@ -66,6 +66,24 @@ Page({
         imgsrc: "../../img/favo.png",
         url: "#"
       },
+      {
+        id: 6,
+        name: "关于",
+        imgsrc: "http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5lIsmTiA.3a9r6OGHYsGJoqttBlhSyJASGRdCqrItUe481uhOhiZ6T4Sgwrzy8EnuUq.8uoXWRNPOHD8CdIL7qM!/mnull&bo=nACcAAAAAAADByI!&rf=photolist&t=5",
+        url: "#"
+      },
+      {
+        id: 7,
+        name: "分享",
+        imgsrc: "http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5lIsmTiA.3a9r6OGHYsGJoqyAZ55tRN438meHUV*tOv8jX3Vzmx1PrVqCVCWok37BEOreq1j1QZsJ3GUN*Bgyw4!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5",
+        url: "#"
+      },
+      {
+        id: 8,
+        name: "来浙学急救",
+        imgsrc: "http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5lIsmTiA.3a9r6OGHYsGJooFuhZowQnUdTDqs1etvAEKHqMNKRmM*iTyOJothr.WfBOzr6GYHnwTmoAu3tYqEog!/mnull&bo=igOLAwAAAAADByM!&rf=photolist&t=5",
+        url: "#"
+      },
     ],
   },
 /**

@@ -1,0 +1,39 @@
+<!--pages/_details_cpr4/_details_cpr4.wxml-->
+<view class="text1">第3步 胸外按压</view>
+<view class="text2">
+  <view>
+    1. 跪在患者一侧。距离其头部较远的那只手的两手指沿着其最低处的肋骨滑行到达其胸骨。将中指按住此点，食指紧贴中指。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5jOIMLDPc8EkFAr1XnNWK7rZmoLsCzpIa8rI6qnnJT4nJtHVyDDefFb1eavPB1i2sGa*YGKiroxg.iE6tp67Nuo!/mnull&bo=IgPVAQAAAAADB9c!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+
+<view class="text2">
+  <view>
+    2. 另一只手的手掌靠着食指置于胸骨上。胸部的这一区域就是你给予按压的地方。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5oNhqp*cSZLfbV9AbU*eIelAKuotUMlHBjQ76XxwoI5naesnOhy1dNXTk74A8neRG5YJ4vdgIPyLM6ynCRyrguk!/mnull&bo=KQOyAQAAAAADB7s!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+
+<view class="text2">
+  <view>
+    3. 将第一只手离开胸部放在另一只手上。手指交叉、使手指底端抬离胸部。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5oNhqp*cSZLfbV9AbU*eIekCVW8NleI6iYWP0urQjfmAbbzyTOsS.38MgcxdouKzasFvi0F6EEE5SSMxnhi0umU!/mnull&bo=1AIEAwAAAAADB*M!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+
+<view class="text2">
+  <view>
+    4. 直跪，肩部位于患者的正上方，肘部挺直。向下按压胸骨4～5厘米，放松，但不要移开你的手。以此方法按压胸部30次，节律大约为10秒钟按压15次（每6秒钟1.5次）。然后给予2次人工呼吸。
+  </view>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5oNhqp*cSZLfbV9AbU*eIelEEmgkvSCzMTsqXsZK5fWkA*mumcmwBBVKPjEcsxCkQorpKxKOfuZk.ol*74QDBHg!/mnull&bo=JAPEAgAAAAADB8M!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5oNhqp*cSZLfbV9AbU*eIekMx4cnnu*OImR0RTjgaonVfouSLl5LS0Nmizngb23ArJ3.QMaS7OqtqfzlFD8E8AE!/mnull&bo=JAO8AQAAAAADB7g!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5ipQeiIVCXdirU.F1kZQkH8EBlExCtFfNR6ykRYWDR.*MTq1yUscJAg1SBU2b0xHDPTz6c8JPju6D6I24*N1MVk!/mnull&bo=FwMbAwAAAAADBy4!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+  <image src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5ipQeiIVCXdirU.F1kZQkH.qVamxSbaix0jHW4HL9XIi6DvJpopKAnEAzDuZkTc74WVgsQ*ORGP1uqefnkT8D0o!/mnull&bo=JwPfAQAAAAADB9g!&rf=photolist&t=5" style="width:100%;margin-top:10rpx" mode="widthFix"></image>
+</view>
+
+<navigator url="/pages/_details_cpr3/_details_cpr3">
+  <button style="margin-top:50rpx">上一步</button>
+</navigator>
+<navigator url="/pages/_details_cpr5/_details_cpr5">
+  <button type="primary" style="margin-bottom:50rpx">下一步</button>
+</navigator>

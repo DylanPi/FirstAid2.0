@@ -1,0 +1,40 @@
+/* pages/_details_mustknow/_details_mustknow.wxss */
+.container {
+  width: 96%;
+  margin: auto;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+.infocell {
+  width: 100%;
+}
+
+.infocell view {
+  display: flex;
+}
+
+.pic{
+  width: 650rpx;
+}
+
+.infocellpicture {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-all{
+  text-align: left;
+}
+.text-first{
+  margin-top: 25rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  font-size: 35rpx;
+}
+.text{
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  font-size: 35rpx;
+}

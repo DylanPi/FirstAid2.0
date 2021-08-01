@@ -14,7 +14,7 @@
   <view class="threemthree">
     <view class="section21">
       <view class="pictext1">
-        <navigator url="/pages/_qanda/_qanda">
+        <navigator url="/pages/_guidance_QA/_guidance_QA">
           <image class ="qanda" src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5r3UGzctlmAf6nhujtz16dWUm1IVdIHvm*SiYKd.a5*6dhbPr3xR4nRJPdYUeH7e2FBeh5wMoxP.NN51d**P8j0!/mnull&bo=oACfAAAAAAADBx0!&rf=photolist&t=5" mode="aspectFit"/>
         </navigator>
         <view class="text1">急救答题</view>

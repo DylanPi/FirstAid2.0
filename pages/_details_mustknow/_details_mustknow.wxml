@@ -1,0 +1,19 @@
+<!--pages/_details_mustknow/_details_mustknow.wxml-->
+<view class="container">
+  <view class="infocellpicture">
+    <image
+      src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5oUjwtCyD1.Z5jY5CoFvNx.J*BUzT*cLqcMztQNRrvearYyFngENiZHoi8HYpf58dwrsdnZ39jrm9HldOKlfRkk!/mnull&bo=kAORAQAAAAADByE!&rf=photolist&t=5"
+      class="pic" mode="widthFix" style="margin-top:25rpx"></image>
+  </view>
+  <view class="text-all">
+    <view class="text-first">1.	保持镇静，不要惊慌失措，安抚好伤病员，增强其求生的信心。</view>
+    <view class="text">2.	迅速妥善地判断整个情况，及时寻求专业帮助、电话求助。</view>
+    <view class="text">3.	保护伤者及其他在场者，尽可能消除潜在的危险。</view>
+    <view class="text">4.	尽自己所能判断伤病者的伤情或病情。</view>
+    <view class="text">5.	尽早给伤病员进行力所能及的救护，从最严重的伤者开始。</view>
+    <view class="text">6.	安排伤病员去医院或回家。</view>
+    <view class="text">7.	陪伴伤病员直到专业救援队的到来。</view>
+    <view class="text">8.	向专业人员介绍情况，必要时提供进一步帮助。</view>
+    <view class="text">9.	做好自我保护。避免让自己受到伤害或交叉感染。</view>
+  </view>
+</view>

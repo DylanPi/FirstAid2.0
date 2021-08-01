@@ -1,0 +1,43 @@
+<!--pages/_panduan_mustknow2/_panduan_mustknow2.wxml-->
+<view class="container">
+	<image class='background' src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5mM1swWi3jTDMhMgrDiIy6PaNmMkFIli6RM7tNaa4UeWzGwwJNj7ZZcYN9uYmxFQeZoSCHI55Ciq6Uv.iiGOasg!/mnull&bo=OASHAQAAAAABB5o!&rf=photolist&t=5" mode="aspectFill"></image>
+</view>
+
+<view class="container">
+  <view class="box">
+    <view class="up">
+      <view class="cate">判断题</view>
+      <view class="num">2/3</view>
+    </view>
+    <view class="down">
+      <view class="text1">作为经验丰富的急救员，遇到需要急救的情况时，无需另外寻求专业帮助、电话求助。</view>
+      <view class="choosebox1">
+        <view class="text3">正确</view>
+      </view>
+      <view class="choosebox2" style="background:{{textbackgroundcolor}}">
+        <view class="text3">错误</view>
+      </view>
+      
+    </view> 
+  </view>
+</view>
+
+
+<button style="width:400rpx"
+        class="answerbutton"
+        disabled="{{disabled}}"
+        bindtap="changecolor">
+  <view class="buttoncontent">
+    <image  style="width:60rpx;height:60rpx" 
+                src="http://m.qpic.cn/psc?/V546Lz6H0OO5vJ2lNMu524jM2H1GFTmy/ruAMsa53pVQWN7FLK88i5gsvoa6PsZLBXccTKN2VLH6LVHE3n2mO8wuD7Oh6GN9TBe4t1K*7cKyraaoWCqkInjoMfSkNxInCXKE.Sk807E0!/mnull&bo=yADIAAAAAAADByI!&rf=photolist&t=5"></image>
+    <view class="text2"
+          style="margin-left:5%">点我查看答案</view>
+  </view>    
+</button>
+
+<navigator url="/pages/_panduan_mustknow1/_panduan_mustknow1">
+  <button>上一题</button>
+</navigator>
+<navigator url="/pages/_panduan_mustknow3/_panduan_mustknow3">
+  <button>下一题</button>
+</navigator>

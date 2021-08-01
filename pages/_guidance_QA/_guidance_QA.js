@@ -1,4 +1,4 @@
-// pages/_guidance/_guidance.js
+// pages/_guidance_QA/_guidance_QA.js
 Page({
 
   /**
@@ -10,7 +10,7 @@ Page({
         id: 1,
         name: "施救须知",
         imgsrc: "../../img/4_Rescue_information.png",
-        url: "/pages/_details_mustknow/_details_mustknow"
+        url: "/pages/_qanda/_qanda"
       },
       {
         id: 2,
@@ -22,7 +22,7 @@ Page({
         id: 3,
         name: "心肺复苏",
         imgsrc: "../../img/1_CPR.png",
-        url: "/pages/_details_cpr1/_details_cpr1"
+        url: "/pages/_details_cpr/_details_cpr"
       },
       {
         id: 4,
@@ -130,25 +130,6 @@ Page({
     ]
   },
 
-  /**
-   *  
-   */
-  showDetails: function (e) {
-    var Turnto;
-    Turnto = e.target.dataset.itemname;
-
-    wx.navigateTo({
-      url: '../_guidanceTo/_guidanceTo?' + 'guideName=' + Turnto,
-
-    });
-  },
-
-  /**
-   *搜索函数 
-   */
-  searchGuide: function (e) {
-    console.log(e);
-  },
   /**
    * 生命周期函数--监听页面加载
    */
